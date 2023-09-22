@@ -19,7 +19,7 @@ export default function Home() {
         </div>
         <div className="container max-auto max-w-4xl mx-auto py-5">
           <div>
-            <h2 className="text-3xl lg:text-5xl pb-5">
+            <h2 className="text-3xl lg:text-5xl pb-5 font-bold">
               What is SEO for Electricians in New York City?
             </h2>
             <p>
@@ -79,74 +79,183 @@ export default function Home() {
               the electrifying city of New York!
             </p>
           </div>
-          <div className="py-10">
-            <h2 className="text-3xl lg:text-5xl pb-5">
-              Light Up Your Business with Free Organic Traffic: Boost Your
-              Earnings Without Depleting Your Ad Budget!
+          <div className="py-5 lg:py-10">
+            <h2 className="text-3xl lg:text-5xl pb-5 font-bold">
+              5 Reasons to Start Doing Search Engine Optimization for
+              Electricians in New York
             </h2>
             <p>
-              As an electrician in Manhattan, Brooklyn, Queens, Staten Island,
-              or the Bronx, online visibility is the fuel that will power your
-              success.
+              Here are five reasons you need a SEO specialist and why you should
+              start practicing SEO on your website
             </p>
-            <p>
-              But, are the escalating costs of Facebook and Google ads making
-              your ROI disappear faster than a flash of lightning?
-            </p>
-            <p>
-              You’re investing considerable amounts, but are these investments
-              illuminating onversions?
-            </p>
-            <p>
-              What if there’s a potent strategy that not only mitigates your
-              expenses but magnetizes clients who are already sparked by your
-              services?
-            </p>
-            <p>
-              Enter the transformative realm of Search Engine Optimization
-              (SEO).
-            </p>
-            <p>With SEO, you’re not just a fleeting image in the ad realm.</p>
-            <p>
-              You’re the solution that your potential clients are fervently
-              searching for.
-            </p>
-            <p>
-              Here’s how SEO could be the circuit breaker for your electrical
-              services in NYC:
-            </p>
-            <ul className="list-disc pl-10">
-              <li>
-                <strong>🌟 Illuminating Organic Traffic</strong> – Get ready for
-                eager, ready-to-hire clients to land on your webpage without
-                expending a dime on ads.
-              </li>
-              <li>
-                <strong>🔦 Be the Beacon Amidst Competing Electrics</strong> –
-                Elevate your online visibility to such dazzling heights that you
-                become the guiding light for clients sifting through a maze of
-                options.
-              </li>
-              <li>
-                <strong>📈 Energize Your Lead Quality & Conversions</strong> –
-                Upgrade your lead dynamics by pulling in meticulously targeted
-                visitors actively seeking the electrical solutions you provide.
-              </li>
-              <li>
-                <strong>📞 Prepare for a Surge in Business Calls</strong> – No
-                more anticipating calls; experience your phone buzzing with
-                inquiries and requests, creating a direct current to success.
-              </li>
-              <li>
-                <strong>🥇 Race Ahead in the Google Ranking Relay</strong> – In
-                the SEO race, become the front-runner leaving the competition in
-                the shadows. Dominate the field and witness customers
-                gravitating towards your services.
-              </li>
-            </ul>
+            <div className="py-5">
+              <h3 className="text-2xl pb-5 font-semibold">
+                #1. Other Electrical Companies in New York are Already Doing SEO
+              </h3>
+              <p>
+                Ever tried looking up your services, and all you see are your
+                competitors owning the first page?
+              </p>
+              <p>
+                Don’t believe it? Go on, do a quick Google search for one of
+                your services and see who’s snagging the top spots. It isn’t
+                just luck!
+              </p>
+              <p>
+                They’re all over SEO. They’ve clued into how crucial it is to be
+                the first name people see online, so they’re using SEO to stand
+                out, pull in customers, and expand their businesses.
+              </p>
+              <p>
+                If SEO isn’t on your to-do list, you’re losing ground—and
+                customers—to your competition. People are out there looking for
+                your services, but they’re stumbling upon your competitors
+                instead!
+              </p>
+              <p>
+                Every day you go without SEO, your competitors are beefing up
+                their online presence and reputation. Plus, the longer you delay
+                jumping into SEO, the more you'll have to catch up.
+              </p>
+              <p>
+                Remember, SEO isn’t an overnight game; it’s a long-haul journey.
+                So, you might not see instant results, but it's worth it.
+              </p>
+              <p>
+                If your rivals are into SEO and you’re not, you’re not just
+                losing a few customers. It’s a continual loss of market share
+                that's going to be tough to win back.
+              </p>
+              <p>Now, let's dive into the second reason!</p>
+            </div>
+            <div className="py-5">
+              <h3 className="text-2xl pb-5 font-semibold">
+                #2. SEO Puts You a Step Ahead of Other Electrical Companies!
+              </h3>
+              <p>
+                Diving into electrical SEO lets you zoom past your competition
+                and shine in a jam-packed market!
+              </p>
+              <p>
+                Having a rock-solid SEO game plan means you’re gonna pop up near
+                the top when folks are looking for pool builders locally.
+              </p>
+              <p>
+                And when you’re up there, it’s a breeze for people to find your
+                site. That means more visits, more leads, and yes, more sales!
+              </p>
+              <p>
+                Oh, and SEO doesn’t just get people through the door—it makes
+                your site a joy to use.
+              </p>
+              <p>
+                The better the experience, the more likely people are to stick
+                around and become customers. Plus, with top-notch SEO, your
+                business could become the go-to electrical authority, earning
+                you trust and love from your customers! And guess what? The
+                perks of SEO stick around, giving you a long-lasting edge.
+              </p>
+              <p>
+                So, SEO isn’t just about matching your competitors—it’s about
+                outrunning them and grabbing a bigger slice of the market pie.
+              </p>
+              <p>Now, let’s hop onto the third reason!</p>
+            </div>
+            <div className="py-5">
+              <h3 className="text-3xl pb-5 font-semibold">
+                #3. More People Will See Your Electrical Company
+              </h3>
+              <p>Landing on Google’s first page?</p>
+              <p>It’s like your web presence just hit a growth spurt!</p>
+              <p>More eyes are on your pool company.</p>
+              <p>More sightings mean more visits.</p>
+              <p>
+                If people spot your website and they’re keen on your services,
+                they’re gonna pop in for a visit.
+              </p>
+              <p>
+                And hey, the more visitors you get to your pool company’s
+                website, the higher the chances of scoring more leads,
+                customers, and of course, sales!
+              </p>
+              <p>Now, let’s splash into the fourth point!</p>
+            </div>
+            <div className="py-5">
+              <h3 className="text-3xl pb-5 font-semibold">
+                #4. You’ll Be Raking in Leads 24/7!
+              </h3>
+              <p>Your website will become an around-the-clock worker bee.</p>
+              <p>
+                Unlike the old-school business models, a slick, optimized
+                website is like having a sales buddy working full-time, pulling
+                in new customers day and night.
+              </p>
+              <p>
+                This non-stop lead magnet magic happens because SEO bumps up
+                your visibility on search engines, letting folks who are on the
+                hunt for what you offer find you easily. And these aren’t just
+                any leads—they’re top-notch because people using search engines
+                are usually on the prowl for solutions, so they’re ready to jump
+                in!
+              </p>
+              <p>
+                Oh, and the leads you get through SEO? They know no borders.
+              </p>
+              <p>
+                You could be pulling in customers from every corner of the
+                globe.
+              </p>
+              <p>
+                SEO isn’t just another trick in the marketing book—it’s a
+                pivotal business tool that keeps your brand and products in the
+                spotlight and attracts leads every hour of every day.
+              </p>
+              <p>
+                Now, let’s jump into the fifth reason SEO is your business’s
+                best friend!
+              </p>
+            </div>
+            <div className="py-5">
+              <h3 className="text-3xl pb-5 font-semibold">
+                #4. DOing SEO is Cheaper Compared to Social Media Ads!
+              </h3>
+              <p>
+                So, with social media, you often find yourself shelling out
+                bucks on ads to get your name out there.
+              </p>
+              <p>But SEO?</p>
+              <p>
+                It doesn’t slap you with extra charges for every click or
+                impression to pull in organic traffic.
+              </p>
+              <p>And here’s the kicker: SEO has staying power.</p>
+              <p>
+                A page that ranks well can keep pulling in visitors for months,
+                heck, even years!
+              </p>
+              <p>
+                Meanwhile, a social media post might just get lost in the
+                shuffle within hours or days.
+              </p>
+              <p>Plus, the traffic you get from SEO is usually top-tier.</p>
+              <p>
+                People landing on your site via search engines are on the
+                lookout for your electrical services, so they’re primed to pay.
+              </p>
+              <p>
+                Sure, SEO and social media each have their perks, but the
+                lasting, high-quality traffic from SEO typically delivers a
+                bang-up return on investment.
+              </p>
+              <p>Bottom line?</p>
+              <p>
+                Social media’s a nice slice of the marketing pie, but for
+                long-lasting, cost-effective growth, SEO takes the cake!
+              </p>
+            </div>
           </div>
-          <div className="py-10">
-            <h2 className="text-3xl lg:text-5xl pb-5">
+          <div className="py-5 lg:py-10">
+            <h2 className="text-3xl lg:text-5xl pb-5 font-bold">
               Power Up Your Business with the Premier SEO Firm in NYC: Unlock
               These 8 Transformative Benefits
             </h2>
@@ -158,7 +267,7 @@ export default function Home() {
             <p>Here are eight compelling reasons to invest in Local SEO:</p>
             <div>
               <div>
-                <h3 className="text-2xl pb-5">
+                <h3 className="text-2xl pb-5 font-semibold">
                   Illuminate Your Local Presence
                 </h3>
                 <p>
@@ -169,7 +278,7 @@ export default function Home() {
                 </p>
               </div>
               <div>
-                <h3 className="text-2xl pb-5">
+                <h3 className="text-2xl pb-5 font-semibold">
                   Convert Clicks into Client Engagements
                 </h3>
                 <p>
@@ -180,7 +289,7 @@ export default function Home() {
                 </p>
               </div>
               <div>
-                <h3 className="text-2xl pb-5">
+                <h3 className="text-2xl pb-5 font-semibold">
                   Transform Searchers into Clients
                 </h3>
                 <p>
@@ -191,7 +300,9 @@ export default function Home() {
                 </p>
               </div>
               <div>
-                <h3 className="text-2xl pb-5">Surpass Your Local Rivals</h3>
+                <h3 className="text-2xl pb-5 font-semibold">
+                  Surpass Your Local Rivals
+                </h3>
                 <p>
                   Don’t merely keep up with the competition—eclipse them.
                   Utilize the opportunity to outshine competitors who are either
@@ -199,7 +310,9 @@ export default function Home() {
                 </p>
               </div>
               <div>
-                <h3 className="text-2xl pb-5">Build Your Reputation & Trust</h3>
+                <h3 className="text-2xl pb-5 font-semibold">
+                  Build Your Reputation & Trust
+                </h3>
                 <p>
                   Frequent appearances in local search results, coupled with a
                   Google My Business profile filled with positive reviews, don’t
@@ -208,7 +321,7 @@ export default function Home() {
                 </p>
               </div>
               <div>
-                <h3 className="text-2xl pb-5">
+                <h3 className="text-2xl pb-5 font-semibold">
                   Effective, Significant, & Economical
                 </h3>
                 <p>
@@ -219,7 +332,9 @@ export default function Home() {
                 </p>
               </div>
               <div>
-                <h3 className="text-2xl pb-5">Enhance Customer Engagement</h3>
+                <h3 className="text-2xl pb-5 font-semibold">
+                  Enhance Customer Engagement
+                </h3>
                 <p>
                   The engagement journey commences way before the first service
                   call. Features like Google My Business Messaging enable direct
@@ -229,7 +344,7 @@ export default function Home() {
                 </p>
               </div>
               <div>
-                <h3 className="text-2xl pb-5">Transparent ROI</h3>
+                <h3 className="text-2xl pb-5 font-semibold">Transparent ROI</h3>
                 <p>
                   NYC local SEO unclouds your ROI. Comprehensive analytics allow
                   precise tracking of your investment. Keep a tab on critical
@@ -247,7 +362,7 @@ export default function Home() {
             </div>
           </div>
           <div className="py-5 lg:py-10">
-            <h2 className="text-3xl lg:text-5xl pb-5">
+            <h2 className="text-3xl lg:text-5xl pb-5 font-bold">
               Consequences of Ignoring Local SEO for Your Electrical Services in
               NYC
             </h2>
@@ -256,7 +371,7 @@ export default function Home() {
               bypassing local SEO:
             </p>
             <div>
-              <h3 className="text-2xl pb-5">
+              <h3 className="text-2xl pb-5 font-semibold">
                 Become a Ghost in Local Searches
               </h3>
               <p>
@@ -270,7 +385,9 @@ export default function Home() {
               </p>
             </div>
             <div>
-              <h3 className="text-2xl pb-5">Decline in Service Calls</h3>
+              <h3 className="text-2xl pb-5 font-semibold">
+                Decline in Service Calls
+              </h3>
               <p>
                 A diminished online presence translates to fewer phone calls,
                 service requests, and client interactions. While your services
@@ -282,7 +399,7 @@ export default function Home() {
               </p>
             </div>
             <div>
-              <h3 className="text-2xl pb-5">
+              <h3 className="text-2xl pb-5 font-semibold">
                 Forfeit Leads, Jobs, and Revenue
               </h3>
               <p>
@@ -295,7 +412,9 @@ export default function Home() {
               </p>
             </div>
             <div>
-              <h3 className="text-2xl pb-5">Erosion of Trust and Authority</h3>
+              <h3 className="text-2xl pb-5 font-semibold">
+                Erosion of Trust and Authority
+              </h3>
               <p>
                 Trust is a key factor in a client’s decision-making process.
                 When people search for electricians and find validated,
@@ -307,7 +426,9 @@ export default function Home() {
               </p>
             </div>
             <div>
-              <h3 className="text-2xl pb-5">At a Competitive Disadvantage</h3>
+              <h3 className="text-2xl pb-5 font-semibold">
+                At a Competitive Disadvantage
+              </h3>
               <p>
                 If your rivals are continually refining their local SEO game,
                 and you’re yet to implement any such strategies, they’ll swiftly
@@ -318,7 +439,7 @@ export default function Home() {
               </p>
             </div>
             <div>
-              <h3 className="text-2xl pb-5">
+              <h3 className="text-2xl pb-5 font-semibold">
                 Expensive and Time-Consuming Recovery
               </h3>
               <p>
@@ -332,7 +453,7 @@ export default function Home() {
             </div>
           </div>
           <div>
-            <h2 className="text-3xl lg:text-5xl pb-5">
+            <h2 className="text-3xl lg:text-5xl pb-5 font-bold">
               How Does NYC Search Engine Optimization Ignite Your Electrician
               Business and Fuel Exponential Growth?
             </h2>
@@ -362,7 +483,7 @@ export default function Home() {
             <p>Here’s a quick blueprint:</p>
             <div className="md:grid grid-cols-2 gap-8">
               <div>
-                <h3 className="text-2xl pb-5">SEO Audit</h3>
+                <h3 className="text-2xl pb-5 font-semibold">SEO Audit</h3>
                 <p>
                   This is your diagnostic process, scanning your site to
                   pinpoint and rectify faults hampering your SEO. Examine your
@@ -372,7 +493,16 @@ export default function Home() {
                 </p>
               </div>
               <div>
-                <h3 className="text-2xl pb-5">Technical SEO</h3>
+                <h3 className="text-2xl pb-5 font-semibold">On-Page SEO</h3>
+                <p>
+                  Optimizing individual pages of your site ensures each page is
+                  fine-tuned and ready to rank high. It involves optimizing
+                  content and HTML source code to resonate well with search
+                  engines and users.
+                </p>
+              </div>
+              <div>
+                <h3 className="text-2xl pb-5 font-semibold">Technical SEO</h3>
                 <p>
                   This component is about revitalizing your website with a focus
                   on improving its architecture, structure and code. It ensures
@@ -382,7 +512,9 @@ export default function Home() {
                 </p>
               </div>
               <div>
-                <h3 className="text-2xl pb-5">Keyword Research</h3>
+                <h3 className="text-2xl pb-5 font-semibold">
+                  Keyword Research
+                </h3>
                 <p>
                   For NYC Electricians, this involves unearthing and utilizing
                   terms that potential customers deploy to find your electric
@@ -392,7 +524,7 @@ export default function Home() {
                 </p>
               </div>
               <div>
-                <h3 className="text-2xl pb-5">Local SEO</h3>
+                <h3 className="text-2xl pb-5 font-semibold">Local SEO</h3>
                 <p>
                   NYC Local SEO concentrates on elevating your online presence
                   to spotlight your specific locale within this electrified
@@ -402,7 +534,7 @@ export default function Home() {
                 </p>
               </div>
               <div>
-                <h3 className="text-2xl pb-5">
+                <h3 className="text-2xl pb-5 font-semibold">
                   SEO Content Creation and Optimization
                 </h3>
                 <p>
@@ -415,7 +547,7 @@ export default function Home() {
                 </p>
               </div>
               <div>
-                <h3 className="text-2xl pb-5">Link Building</h3>
+                <h3 className="text-2xl pb-5 font-semibold">Link Building</h3>
                 <p>
                   This is your digital networking strategy. Establishing
                   high-quality, relevant backlinks fortifies your website’s
@@ -426,7 +558,9 @@ export default function Home() {
                 </p>
               </div>
               <div>
-                <h3 className="text-2xl pb-5">Competitive Analysis</h3>
+                <h3 className="text-2xl pb-5 font-semibold">
+                  Competitive Analysis
+                </h3>
                 <p>
                   This is your strategic reconnaissance. It involves
                   scrutinizing your competitors’ online strategies, uncovering
@@ -437,7 +571,9 @@ export default function Home() {
                 </p>
               </div>
               <div>
-                <h3 className="text-2xl pb-5">Tracking and Monitoring</h3>
+                <h3 className="text-2xl pb-5 font-semibold">
+                  Tracking and Monitoring
+                </h3>
                 <p>
                   Evaluating the efficiency of your SEO endeavors requires
                   persistent tracking and monitoring. This reveals whether your
@@ -449,13 +585,13 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="py-10">
-            <h2 className="text-3xl lg:text-5xl pb-5">
+          <div className="py-5 lg:py-10">
+            <h2 className="text-3xl lg:text-5xl pb-5 font-bold">
               With a Huge Pool of Electrical SEO Companies in NYC, Why Work With
               Me, and Trust Me to Help With Your SEO?
             </h2>
             <div className="py-10">
-              <h3 className="text-2xl pb-5 font-bold">
+              <h3 className="text-2xl pb-5  font-semibold">
                 #1. I Focus on Your Results
               </h3>
               <p>
@@ -493,7 +629,7 @@ export default function Home() {
               </p>
             </div>
             <div className="py-10">
-              <h3 className="text-2xl pb-5 font-bold">
+              <h3 className="text-2xl pb-5  font-semibold">
                 #2. I Build Custom SEO Plans for Your Business
               </h3>
               <p>
@@ -530,7 +666,7 @@ export default function Home() {
               </p>
             </div>
             <div className="py-10">
-              <h3 className="text-2xl pb-5 font-bold">
+              <h3 className="text-2xl pb-5 font-semibold">
                 #3. I Know What I'm Doing
               </h3>
               <p>
@@ -567,7 +703,7 @@ export default function Home() {
               </p>
             </div>
             <div className="py-10">
-              <h3 className="text-2xl pb-5 font-bold">
+              <h3 className="text-2xl pb-5 font-semibold">
                 #4. I’m All About Transparency!
               </h3>
               <p>
@@ -599,7 +735,7 @@ export default function Home() {
               </p>
             </div>
             <div className="py-10">
-              <h3 className="text-2xl pb-5 font-bold">
+              <h3 className="text-2xl pb-5 font-semibold">
                 #5. No Working with the Competition!
               </h3>
               <p>
@@ -624,13 +760,13 @@ export default function Home() {
               </p>
             </div>
           </div>
-          <div className="py-10">
-            <h2 className="text-3xl lg:text-5xl pb-10">
+          <div className="py-5 lg:py-10">
+            <h2 className="text-3xl lg:text-5xl pb-10 font-bold">
               FAQ: SEO for Electricians in New York City
             </h2>
             <div className="grid grid-cols-2 gap-8">
               <div>
-                <h3 className="text-2xl pb-5">
+                <h3 className="text-2xl pb-5 font-semibold">
                   What is SEO and why is it important for electricians in New
                   York City?
                 </h3>
@@ -644,7 +780,7 @@ export default function Home() {
                 </p>
               </div>
               <div>
-                <h3 className="text-2xl pb-5">
+                <h3 className="text-2xl pb-5 font-semibold">
                   How can local SEO benefit NYC electricians specifically?
                 </h3>
                 <p>
@@ -656,7 +792,7 @@ export default function Home() {
                 </p>
               </div>
               <div>
-                <h3 className="text-2xl pb-5">
+                <h3 className="text-2xl pb-5 font-semibold">
                   What is the role of keywords in SEO for electricians?
                 </h3>
                 <p>
@@ -668,7 +804,7 @@ export default function Home() {
                 </p>
               </div>
               <div>
-                <h3 className="text-2xl pb-5">
+                <h3 className="text-2xl pb-5 font-semibold">
                   How can electricians optimize their websites for mobile users?
                 </h3>
                 <p>
@@ -680,7 +816,7 @@ export default function Home() {
                 </p>
               </div>
               <div>
-                <h3 className="text-2xl pb-5">
+                <h3 className="text-2xl pb-5 font-semibold">
                   Can SEO help in building a better online reputation for
                   electricians?
                 </h3>
@@ -692,7 +828,7 @@ export default function Home() {
                 </p>
               </div>
               <div>
-                <h3 className="text-2xl pb-5">
+                <h3 className="text-2xl pb-5 font-semibold">
                   How important are backlinks for electricians’ SEO strategies?
                 </h3>
                 <p>
@@ -705,7 +841,7 @@ export default function Home() {
                 </p>
               </div>
               <div>
-                <h3 className="text-2xl pb-5">
+                <h3 className="text-2xl pb-5 font-semibold">
                   Is it important for electricians to have a blog for SEO?
                 </h3>
                 <p>
@@ -716,7 +852,7 @@ export default function Home() {
                 </p>
               </div>
               <div>
-                <h3 className="text-2xl pb-5">
+                <h3 className="text-2xl pb-5 font-semibold">
                   How can electricians leverage Google My Business for SEO?
                 </h3>
                 <p>
@@ -728,7 +864,7 @@ export default function Home() {
                 </p>
               </div>
               <div>
-                <h3 className="text-2xl pb-5">
+                <h3 className="text-2xl pb-5 font-semibold">
                   How long does it take to see results from SEO for electricians
                   in NYC?
                 </h3>
@@ -741,7 +877,7 @@ export default function Home() {
                 </p>
               </div>
               <div>
-                <h3 className="text-2xl pb-5">
+                <h3 className="text-2xl pb-5 font-semibold">
                   Can electricians do SEO by themselves or should they hire
                   professionals?
                 </h3>
@@ -754,7 +890,7 @@ export default function Home() {
                 </p>
               </div>
               <div>
-                <h3 className="text-2xl pb-5">
+                <h3 className="text-2xl pb-5 font-semibold">
                   How does SEO for electricians in New York differ from SEO in
                   smaller cities?
                 </h3>
@@ -767,7 +903,7 @@ export default function Home() {
                 </p>
               </div>
               <div>
-                <h3 className="text-2xl pb-5">
+                <h3 className="text-2xl pb-5 font-semibold">
                   Is investing in SEO worthwhile for small-scale electrician
                   businesses in NYC?
                 </h3>
