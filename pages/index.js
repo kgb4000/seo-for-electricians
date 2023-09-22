@@ -8,16 +8,16 @@ export default function Home() {
   return (
     <>
       <main>
-        <div className="container max-auto max-w-8xl mx-auto py-40">
+        <div className="container max-auto max-w-4xl mx-auto py-40">
           <h1 className="text-6xl lg:text-8xl pb-5 font-bold">
             SEO For Electricians in NYC
           </h1>
-          <p className="lg:text-center font-semibold">
+          <p className="font-semibold">
             Unlock Unparalleled Growth & Visibility with Tailored SEO Strategies
             for Electricians!
           </p>
         </div>
-        <div className="container max-auto max-w-8xl mx-auto py-5">
+        <div className="container max-auto max-w-4xl mx-auto py-5">
           <div>
             <h2 className="text-3xl lg:text-5xl pb-5">
               What is SEO for Electricians in New York City?
@@ -95,7 +95,7 @@ export default function Home() {
             </p>
             <p>
               You’re investing considerable amounts, but are these investments
-              illuminating your conversion path?
+              illuminating onversions?
             </p>
             <p>
               What if there’s a potent strategy that not only mitigates your
@@ -460,18 +460,21 @@ export default function Home() {
               </h3>
               <p>
                 I’m your go-to person for all things SEO, especially when it
-                comes to pool businesses. My main goal? To get you real results
-                that genuinely help your company grow.
+                comes to local electrical businesses in NYC.
+              </p>
+              <p>My main goal?</p>
+              <p>
+                To get you real results that genuinely help your company grow.
               </p>
               <p>
-                See, I know SEO isn’t just about getting your website to show up
-                in search results or getting lots of clicks. It’s about bringing
-                in real customers who are interested in your pool services,
+                I know SEO isn’t just about getting your website to show up in
+                search results or getting lots of clicks. It’s about bringing in
+                real customers who are interested in your pool services,
                 boosting your sales, and helping your business expand.
               </p>
               <p>
                 I’m all about creating strategies that do more than just make
-                your website visible—they make sure that the people who see your
+                your website visible — I make sure that the people who see your
                 site actually become customers, helping your revenue go up!
               </p>
               <p>
@@ -483,10 +486,10 @@ export default function Home() {
               </p>
               <p>
                 I’m totally committed to making sure your SEO strategies do what
-                they’re supposed to do, and I won’t stop until your pool company
-                is rocking the SEO game. I’m here to make sure your business not
-                only stands out online but also really succeeds and gets those
-                customers and sales you’re after!
+                they’re supposed to do, and I won’t stop until your business is
+                rocking. I’m here to make sure your business not only stands out
+                in the NYC, but also really succeeds and gets those customers
+                and sales you’re after!
               </p>
             </div>
             <div className="py-10">
@@ -561,6 +564,63 @@ export default function Home() {
                 When you work with me, you're working with a professional who
                 knows everything there is to know about electrical SEO and how
                 to make it work for your business.
+              </p>
+            </div>
+            <div className="py-10">
+              <h3 className="text-2xl pb-5 font-bold">
+                #4. I’m All About Transparency!
+              </h3>
+              <p>
+                Keeping you in the know about your SEO campaigns at every step
+                is super important to me.
+              </p>
+              <p>
+                I don’t just tell you what I’m up to but also why I’m doing it.
+              </p>
+              <p>
+                I’ll send you regular, easy-to-understand reports showing you
+                exactly what my work is achieving. You’ll see all the important
+                stuff—how we’re doing on key performance indicators, metrics,
+                and any milestones we’ve hit.
+              </p>
+              <p>
+                And, if we run into any snags, I’ll be straight-up with you
+                about what’s going on and how we’re going to fix it.
+              </p>
+              <p>
+                I aim to make the sometimes puzzling world of SEO super clear
+                and easy for you to get. This way, you’re not just watching from
+                the sidelines—you’re an informed member of the team.
+              </p>
+              <p>
+                Being totally open and honest is all about building a trusting
+                relationship with you. It ensures we’re working together in the
+                most genuine way possible!
+              </p>
+            </div>
+            <div className="py-10">
+              <h3 className="text-2xl pb-5 font-bold">
+                #5. No Working with the Competition!
+              </h3>
+              <p>
+                My rule is super simple: I won’t work with any other pool
+                companies in your local area.
+              </p>
+              <p>
+                I’m a big believer in giving my clients my full attention, and
+                that means pouring all my skills and resources into one business
+                per industry in each market area. This way, you know I’m 100% on
+                your side with no divided loyalties.
+              </p>
+              <p>
+                This also means that all the cool strategies, insights, and
+                competitive edges I come up with are yours and yours alone—none
+                of your competitors will get their hands on them!
+              </p>
+              <p>
+                I’m really dedicated to this “one-per-area” approach because it
+                lets me concentrate fully on making sure your business blows the
+                others out of the water in the search engine results!
               </p>
             </div>
           </div>
@@ -653,6 +713,70 @@ export default function Home() {
                   blog can help electricians in NYC establish authority, provide
                   value to visitors, and rank for additional keywords, driving
                   more organic traffic to their websites.
+                </p>
+              </div>
+              <div>
+                <h3 className="text-2xl pb-5">
+                  How can electricians leverage Google My Business for SEO?
+                </h3>
+                <p>
+                  By creating and optimizing a Google My Business listing, NYC
+                  electricians can enhance their visibility in local searches
+                  and Google Maps. Regularly updating information, adding
+                  photos, and collecting reviews can significantly impact local
+                  SEO performance.
+                </p>
+              </div>
+              <div>
+                <h3 className="text-2xl pb-5">
+                  How long does it take to see results from SEO for electricians
+                  in NYC?
+                </h3>
+                <p>
+                  SEO is a long-term strategy, and results may vary. However,
+                  typically, electricians in New York City can start observing
+                  changes in organic traffic and rankings in approximately three
+                  to six months, with substantial growth often occurring after
+                  that period.
+                </p>
+              </div>
+              <div>
+                <h3 className="text-2xl pb-5">
+                  Can electricians do SEO by themselves or should they hire
+                  professionals?
+                </h3>
+                <p>
+                  While basic SEO can be managed independently, given the
+                  competitiveness in NYC, hiring a professional can be
+                  beneficial. Professionals have the expertise to implement
+                  advanced strategies and stay updated on the latest SEO trends,
+                  which can be pivotal for success in such a dense market.
+                </p>
+              </div>
+              <div>
+                <h3 className="text-2xl pb-5">
+                  How does SEO for electricians in New York differ from SEO in
+                  smaller cities?
+                </h3>
+                <p>
+                  Given the high competition and diverse market in New York, SEO
+                  strategies for electricians may need to be more aggressive and
+                  localized. The focus should be on hyper-local SEO, targeting
+                  specific boroughs or neighborhoods, and maintaining a strong
+                  online reputation.
+                </p>
+              </div>
+              <div>
+                <h3 className="text-2xl pb-5">
+                  Is investing in SEO worthwhile for small-scale electrician
+                  businesses in NYC?
+                </h3>
+                <p>
+                  Even for small-scale electricians, investing in SEO is crucial
+                  in NYC. It helps in leveling the playing field, allowing
+                  smaller businesses to compete with larger ones by optimizing
+                  their online presence, increasing visibility, and attracting
+                  more potential customers in specific localities.
                 </p>
               </div>
             </div>
