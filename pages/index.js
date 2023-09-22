@@ -217,7 +217,7 @@ export default function Home() {
             </div>
             <div className="py-5">
               <h3 className="text-3xl pb-5 font-semibold">
-                #4. DOing SEO is Cheaper Compared to Social Media Ads!
+                #4. Doing SEO is Cheaper Compared to Social Media Ads!
               </h3>
               <p>
                 So, with social media, you often find yourself shelling out
