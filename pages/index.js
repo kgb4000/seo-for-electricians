@@ -1,14 +1,16 @@
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import Footer from '@/components/Footer'
+import { NextSeo } from 'next-seo'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
     <>
+      <NextSeo />
       <main>
-        <div className="container max-auto max-w-4xl mx-auto py-40">
+        <div className="container max-auto max-w-8xl mx-auto py-40">
           <h1 className="text-6xl lg:text-8xl pb-5 font-bold">
             SEO For Electricians in NYC
           </h1>
@@ -68,17 +70,9 @@ export default function Home() {
               Are you ready to illuminate your electrical services in NYC with
               local SEO?
             </p>
-            <p>
-              Connect with local homeowners like Jane, keen to flick the switch
-              with your top-tier services and watch your business spark to new
-              heights!
-            </p>
-            <p>
-              Keep the conversation engaging, approachable, and enlightening,
-              and see the powerful impact of SEO on your electrical services in
-              the electrifying city of New York!
-            </p>
           </div>
+        </div>
+        <div className="container max-auto max-w-7xl mx-auto py-5">
           <div className="py-5 lg:py-10">
             <h2 className="text-3xl lg:text-5xl pb-5 font-bold">
               5 Reasons to Start Doing Search Engine Optimization for
@@ -138,7 +132,7 @@ export default function Home() {
               </p>
               <p>
                 Having a rock-solid SEO game plan means you’re gonna pop up near
-                the top when folks are looking for pool builders locally.
+                the top when folks are looking for electrical services locally.
               </p>
               <p>
                 And when you’re up there, it’s a breeze for people to find your
@@ -167,14 +161,14 @@ export default function Home() {
               </h3>
               <p>Landing on Google’s first page?</p>
               <p>It’s like your web presence just hit a growth spurt!</p>
-              <p>More eyes are on your pool company.</p>
+              <p>More eyes are on your electrical company.</p>
               <p>More sightings mean more visits.</p>
               <p>
                 If people spot your website and they’re keen on your services,
                 they’re gonna pop in for a visit.
               </p>
               <p>
-                And hey, the more visitors you get to your pool company’s
+                And hey, the more visitors you get to your electrical company’s
                 website, the higher the chances of scoring more leads,
                 customers, and of course, sales!
               </p>
@@ -217,7 +211,7 @@ export default function Home() {
             </div>
             <div className="py-5">
               <h3 className="text-3xl pb-5 font-semibold">
-                #4. Doing SEO is Cheaper Compared to Social Media Ads!
+                #5. Doing SEO is Cheaper Compared to Social Media Ads!
               </h3>
               <p>
                 So, with social media, you often find yourself shelling out
@@ -256,8 +250,8 @@ export default function Home() {
           </div>
           <div className="py-5 lg:py-10">
             <h2 className="text-3xl lg:text-5xl pb-5 font-bold">
-              Power Up Your Business with the Premier SEO Firm in NYC: Unlock
-              These 8 Transformative Benefits
+              Power Up Your Business with the Premier Electrical SEO Agency in
+              NYC: Unlock These 8 Transformative Benefits
             </h2>
             <p>Aiming to electrify your local market presence?</p>
             <p>
@@ -519,7 +513,7 @@ export default function Home() {
                   For NYC Electricians, this involves unearthing and utilizing
                   terms that potential customers deploy to find your electric
                   services. It equips you with insights into consumer search
-                  behaviors, enabling the creation of content that aligns with
+                  behaviors, enabling you to create SEO content that aligns with
                   their queries and ascends in search results.
                 </p>
               </div>
@@ -605,7 +599,7 @@ export default function Home() {
               <p>
                 I know SEO isn’t just about getting your website to show up in
                 search results or getting lots of clicks. It’s about bringing in
-                real customers who are interested in your pool services,
+                real customers who are interested in your electrical services,
                 boosting your sales, and helping your business expand.
               </p>
               <p>
@@ -654,10 +648,10 @@ export default function Home() {
               </p>
               <p>
                 I’m totally committed to making sure your SEO strategies do what
-                they’re supposed to do, and I won’t stop until your pool company
-                is rocking the SEO game. I’m here to make sure your business not
-                only stands out online but also really succeeds and gets those
-                customers and sales you’re after!
+                they’re supposed to do, and I won’t stop until your electrical
+                company is rocking the SEO game. I’m here to make sure your
+                business not only stands out online but also really succeeds and
+                gets those customers and sales you’re after!
               </p>
               <p>
                 This personalized touch is my secret sauce to driving more
@@ -691,10 +685,10 @@ export default function Home() {
               </p>
               <p>
                 I’m totally committed to making sure your SEO strategies do what
-                they’re supposed to do, and I won’t stop until your pool company
-                is rocking the SEO game. I’m here to make sure your business not
-                only stands out online but also really succeeds and gets those
-                customers and sales you’re after!
+                they’re supposed to do, and I won’t stop until your electrical
+                company is rocking the SEO game. I’m here to make sure your
+                business not only stands out online but also really succeeds and
+                gets those customers and sales you’re after!
               </p>
               <p>
                 When you work with me, you're working with a professional who
@@ -739,7 +733,7 @@ export default function Home() {
                 #5. No Working with the Competition!
               </h3>
               <p>
-                My rule is super simple: I won’t work with any other pool
+                My rule is super simple: I won’t work with any other electrical
                 companies in your local area.
               </p>
               <p>
@@ -760,11 +754,13 @@ export default function Home() {
               </p>
             </div>
           </div>
+        </div>
+        <div className="container max-7xl mx-auto py-10">
           <div className="py-5 lg:py-10">
-            <h2 className="text-3xl lg:text-5xl pb-10 font-bold">
+            <h2 className="lg:text-center text-3xl lg:text-5xl pb-20 font-bold">
               FAQ: SEO for Electricians in New York City
             </h2>
-            <div className="grid grid-cols-2 gap-8">
+            <div className="grid grid-cols-2 gap-10">
               <div>
                 <h3 className="text-2xl pb-5 font-semibold">
                   What is SEO and why is it important for electricians in New
