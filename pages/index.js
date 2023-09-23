@@ -2,6 +2,7 @@ import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import Footer from '@/components/Footer'
 import { NextSeo } from 'next-seo'
+import Link from 'next/link'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -10,7 +11,36 @@ export default function Home() {
     <>
       <NextSeo />
       <main>
-        <div className="container max-auto max-w-8xl mx-auto py-40">
+        <section class="text-gray-600 body-font">
+          <div class="container mx-auto flex px-5 py-24 lg:py-56 md:flex-row flex-col items-center">
+            <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+              <h1 className="text-6xl lg:text-8xl pb-5 font-bold text-gray-900">
+                SEO For Electricians in NYC
+                {/* <br class="hidden lg:inline-block">readymade gluten</br> */}
+              </h1>
+              <p class="mb-8 leading-relaxed">
+                Unlock Unparalleled Growth & Visibility with Tailored Electrical
+                SEO Services Exclusively for Electricians in New York City!
+              </p>
+              <div class="flex justify-center">
+                <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+                  Call Me Today &#8594;
+                </button>
+                {/* <button class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">
+                  Get Your Free SEO Audit &#8594;
+                </button> */}
+              </div>
+            </div>
+            <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+              <img
+                class="object-cover object-center rounded"
+                alt="hero"
+                src="https://dummyimage.com/720x600"
+              />
+            </div>
+          </div>
+        </section>
+        {/* <div className="container max-auto max-w-8xl mx-auto py-40">
           <h1 className="text-6xl lg:text-8xl pb-5 font-bold">
             SEO For Electricians in NYC
           </h1>
@@ -18,7 +48,7 @@ export default function Home() {
             Unlock Unparalleled Growth & Visibility with Tailored SEO Strategies
             for Electricians!
           </p>
-        </div>
+        </div> */}
         <div className="container max-auto max-w-4xl mx-auto py-5">
           <div>
             <h2 className="text-3xl lg:text-5xl pb-5 font-bold">
@@ -27,19 +57,30 @@ export default function Home() {
             <p>
               SEO, or Search Engine Optimization, isn’t just another piece of
               jargon; it’s an essential component for electricians looking to
-              electrify their presence in the ever-evolving, bustling hub of New
-              York City.
+              grow their presence in the bustling hub of New York City.
+            </p>
+            <p>
+              With more than{' '}
+              <Link
+                href="https://www.bls.gov/oes/current/oes472111.htm#st"
+                target="_blank"
+              >
+                39,000
+              </Link>{' '}
+              electricians in New York, search engine optimization is a must.
             </p>
             <p>Let’s paint a picture:</p>
             <p>
-              You’re running an electrical company in Queens, New York. You have
-              your arsenal of tools, a team of certified electricians, and a
-              commitment to power up the city that never sleeps.
+              You’re running an electrical company in Crown Heights, Brooklyn.
+            </p>
+            <p>
+              You have your arsenal of tools, a team of certified electricians,
+              and a commitment to power up the city and your customers.
             </p>
             <p>Meet Jane.</p>
             <p>
-              She’s just leased a chic apartment in Brooklyn and is in urgent
-              need of an electrician to install some designer fixtures.
+              She’s just leased a chic apartment in Crown Heights and is in
+              urgent need of an electrician to install some designer fixtures.
             </p>
             <p>
               Instead of browsing through the endless yellow pages or consulting
@@ -50,7 +91,7 @@ export default function Home() {
             <p>
               With a well-optimized website, your electrician services could
               light up as the first thing Jane sees, persuading her to choose
-              you over competitors.
+              you over your competitors.
             </p>
             <p>
               By focusing on local SEO, you increase the odds of your
@@ -59,8 +100,18 @@ export default function Home() {
             </p>
             <p>
               This is not merely a digital triumph; it’s a gateway to tangible
-              rewards! Research reveals that the top three organic search
-              results grab approximately 54.4% of all clicks.
+              rewards!
+            </p>
+            <p>
+              Research shows that the top three organic search results grab
+              approximately{' '}
+              <Link
+                href="https://backlinko.com/google-ctr-stats"
+                target="_blank"
+              >
+                54.4%
+              </Link>{' '}
+              of all clicks.
             </p>
             <p>
               So, the higher you rank, the more clicks you bag, converting these
@@ -915,6 +966,59 @@ export default function Home() {
           </div>
         </div>
       </main>
+      <section class="text-gray-600 body-font relative">
+        <div class="absolute inset-0 bg-gray-300">
+          {/* <iframe
+            width="100%"
+            height="100%"
+            style="filter: grayscale(1) contrast(1.2) opacity(0.4);"
+            frameborder="0"
+            marginheight="0"
+            marginwidth="0"
+            title="map"
+            scrolling="no"
+            src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=%C4%B0zmir+(My%20Business%20Name)&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed"
+          ></iframe> */}
+        </div>
+        <div class="container px-5 py-24 mx-auto flex">
+          <div class="lg:w-1/3 md:w-1/2 bg-white rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0 relative z-10 shadow-md">
+            <h2 class="text-gray-900 text-lg mb-1 font-medium title-font">
+              Feedback
+            </h2>
+            <p class="leading-relaxed mb-5 text-gray-600">
+              Post-ironic portland shabby chic echo park, banjo fashion axe
+            </p>
+            <div class="relative mb-4">
+              <label for="email" class="leading-7 text-sm text-gray-600">
+                Email
+              </label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                class="w-full bg-white rounded border border-gray-300 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+              />
+            </div>
+            <div class="relative mb-4">
+              <label for="message" class="leading-7 text-sm text-gray-600">
+                Message
+              </label>
+              <textarea
+                id="message"
+                name="message"
+                class="w-full bg-white rounded border border-gray-300 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
+              ></textarea>
+            </div>
+            <button class="text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg">
+              Button
+            </button>
+            <p class="text-xs text-gray-500 mt-3">
+              Chicharrones blog helvetica normcore iceland tousled brook viral
+              artisan.
+            </p>
+          </div>
+        </div>
+      </section>
       <Footer />
     </>
   )
