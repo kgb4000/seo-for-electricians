@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
+import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import { NextSeo } from 'next-seo'
 import Link from 'next/link'
@@ -11,37 +12,48 @@ export default function Home() {
     <>
       <NextSeo />
       <main>
-        <section class="text-gray-600 body-font">
-          <div class="container mx-auto flex px-5 py-24 lg:py-56 md:flex-row flex-col items-center">
-            <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-              <h1 className="text-6xl lg:text-8xl pb-5 font-bold text-gray-900">
+        <Header />
+        <section className="text-gray-600 body-font">
+          <div className="container mx-auto flex px-5 py-24 lg:py-56 md:flex-row flex-col items-center">
+            <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+              <h1 className="text-6xl lg:text-9xl pb-5 font-bold text-gray-900">
                 SEO For Electricians in NYC
                 {/* <br class="hidden lg:inline-block">readymade gluten</br> */}
               </h1>
-              <p class="mb-8 leading-relaxed">
-                Unlock Unparalleled Growth & Visibility with Tailored Electrical
+              <p className="mb-8 leading-relaxed text-2xl">
+                Boost Your Company's Growth & Visibility with Custom Electrical
                 SEO Services Exclusively for Electricians in New York City!
               </p>
-              <div class="flex justify-center">
-                <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
-                  Call Me Today &#8594;
-                </button>
-                {/* <button class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">
+              <div className="flex justify-center">
+                <Link
+                  href=""
+                  className="inline-flex text-white bg-orange-400 border-0 py-4 px-8  focus:outline-none hover:bg-orange-500 rounded text-xl no-underline"
+                >
+                  Get Your Free Website Audit &#8594;
+                </Link>
+                <Link
+                  href=""
+                  className="inline-flex border-0 py-4 px-8  focus:outline-none  text-xl no-underline text-black"
+                >
+                  Contact Me Today &#8594;
+                </Link>
+                {/* <button className="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">
                   Get Your Free SEO Audit &#8594;
                 </button> */}
               </div>
             </div>
-            <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+            <div className="lg:max-w-xl lg:w-full md:w-1/2 w-5/6">
               <img
-                class="object-cover object-center rounded"
-                alt="hero"
+                className="object-cover object-center rounded"
+                alt="SEO for Electricians in NYC."
+                title="SEO for Electricians in NYC."
                 src="https://dummyimage.com/720x600"
               />
             </div>
           </div>
         </section>
         {/* <div className="container max-auto max-w-8xl mx-auto py-40">
-          <h1 className="text-6xl lg:text-8xl pb-5 font-bold">
+          <h1 classNameName="text-6xl lg:text-8xl pb-5 font-bold">
             SEO For Electricians in NYC
           </h1>
           <p className="font-semibold">
@@ -49,16 +61,18 @@ export default function Home() {
             for Electricians!
           </p>
         </div> */}
-        <div className="container max-auto max-w-4xl mx-auto py-5">
-          <div>
-            <h2 className="text-3xl lg:text-5xl pb-5 font-bold">
+        <div className="container max-auto max-w-8xl mx-auto py-20  grid grid-col-1 lg:grid-cols-2 gap-20 items-center">
+          <img src="images/electrician.webp" className="rounded order-2" />
+          <div className="order-1">
+            <h2 className="text-3xl lg:text-7xl pb-5 font-bold mb-7">
               What is SEO for Electricians in New York City?
             </h2>
             <p>
               SEO, or Search Engine Optimization, isn’t just another piece of
               jargon; it’s an essential component for electricians looking to
-              grow their presence in the bustling hub of New York City.
+              grow their presence.
             </p>
+            <p>Especially in New York City and more than 18,000,000 people.</p>
             <p>
               With more than{' '}
               <Link
@@ -69,9 +83,10 @@ export default function Home() {
               </Link>{' '}
               electricians in New York, search engine optimization is a must.
             </p>
-            <p>Let’s paint a picture:</p>
+            <p>Let me paint a picture for you:</p>
             <p>
-              You’re running an electrical company in Crown Heights, Brooklyn.
+              Imagine you’re running your electrical company in Crown Heights,
+              Brooklyn.
             </p>
             <p>
               You have your arsenal of tools, a team of certified electricians,
@@ -99,8 +114,8 @@ export default function Home() {
               page—when Jane and others search for electrical services.
             </p>
             <p>
-              This is not merely a digital triumph; it’s a gateway to tangible
-              rewards!
+              This is not merely a digital triumph; it’s a gateway to more cash
+              in you account!
             </p>
             <p>
               Research shows that the top three organic search results grab
@@ -123,689 +138,961 @@ export default function Home() {
             </p>
           </div>
         </div>
-        <div className="container max-auto max-w-7xl mx-auto py-5">
-          <div className="py-5 lg:py-10">
-            <h2 className="text-3xl lg:text-5xl pb-5 font-bold">
-              5 Reasons to Start Doing Search Engine Optimization for
-              Electricians in New York
-            </h2>
-            <p>
-              Here are five reasons you need a SEO specialist and why you should
-              start practicing SEO on your website
-            </p>
-            <div className="py-5">
-              <h3 className="text-2xl pb-5 font-semibold">
-                #1. Other Electrical Companies in New York are Already Doing SEO
-              </h3>
-              <p>
-                Ever tried looking up your services, and all you see are your
-                competitors owning the first page?
+        <div className="w-auto py-20">
+          <div className="container max-auto max-w-8xl mx-auto py-5">
+            <div className="py-5 lg:py-10">
+              <h2 className="text-3xl lg:text-7xl pb-5 font-bold mb-7 text-center">
+                5 Reasons to Start Doing Search Engine Optimization for
+                Electricians
+              </h2>
+              <p className="text-xl text-center">
+                Here are five reasons you need a SEO specialist and why you
+                should start practicing SEO on your website
               </p>
-              <p>
-                Don’t believe it? Go on, do a quick Google search for one of
-                your services and see who’s snagging the top spots. It isn’t
-                just luck!
-              </p>
-              <p>
-                They’re all over SEO. They’ve clued into how crucial it is to be
-                the first name people see online, so they’re using SEO to stand
-                out, pull in customers, and expand their businesses.
-              </p>
-              <p>
-                If SEO isn’t on your to-do list, you’re losing ground—and
-                customers—to your competition. People are out there looking for
-                your services, but they’re stumbling upon your competitors
-                instead!
-              </p>
-              <p>
-                Every day you go without SEO, your competitors are beefing up
-                their online presence and reputation. Plus, the longer you delay
-                jumping into SEO, the more you'll have to catch up.
-              </p>
-              <p>
-                Remember, SEO isn’t an overnight game; it’s a long-haul journey.
-                So, you might not see instant results, but it's worth it.
-              </p>
-              <p>
-                If your rivals are into SEO and you’re not, you’re not just
-                losing a few customers. It’s a continual loss of market share
-                that's going to be tough to win back.
-              </p>
-              <p>Now, let's dive into the second reason!</p>
-            </div>
-            <div className="py-5">
-              <h3 className="text-2xl pb-5 font-semibold">
-                #2. SEO Puts You a Step Ahead of Other Electrical Companies!
-              </h3>
-              <p>
-                Diving into electrical SEO lets you zoom past your competition
-                and shine in a jam-packed market!
-              </p>
-              <p>
-                Having a rock-solid SEO game plan means you’re gonna pop up near
-                the top when folks are looking for electrical services locally.
-              </p>
-              <p>
-                And when you’re up there, it’s a breeze for people to find your
-                site. That means more visits, more leads, and yes, more sales!
-              </p>
-              <p>
-                Oh, and SEO doesn’t just get people through the door—it makes
-                your site a joy to use.
-              </p>
-              <p>
-                The better the experience, the more likely people are to stick
-                around and become customers. Plus, with top-notch SEO, your
-                business could become the go-to electrical authority, earning
-                you trust and love from your customers! And guess what? The
-                perks of SEO stick around, giving you a long-lasting edge.
-              </p>
-              <p>
-                So, SEO isn’t just about matching your competitors—it’s about
-                outrunning them and grabbing a bigger slice of the market pie.
-              </p>
-              <p>Now, let’s hop onto the third reason!</p>
-            </div>
-            <div className="py-5">
-              <h3 className="text-3xl pb-5 font-semibold">
-                #3. More People Will See Your Electrical Company
-              </h3>
-              <p>Landing on Google’s first page?</p>
-              <p>It’s like your web presence just hit a growth spurt!</p>
-              <p>More eyes are on your electrical company.</p>
-              <p>More sightings mean more visits.</p>
-              <p>
-                If people spot your website and they’re keen on your services,
-                they’re gonna pop in for a visit.
-              </p>
-              <p>
-                And hey, the more visitors you get to your electrical company’s
-                website, the higher the chances of scoring more leads,
-                customers, and of course, sales!
-              </p>
-              <p>Now, let’s splash into the fourth point!</p>
-            </div>
-            <div className="py-5">
-              <h3 className="text-3xl pb-5 font-semibold">
-                #4. You’ll Be Raking in Leads 24/7!
-              </h3>
-              <p>Your website will become an around-the-clock worker bee.</p>
-              <p>
-                Unlike the old-school business models, a slick, optimized
-                website is like having a sales buddy working full-time, pulling
-                in new customers day and night.
-              </p>
-              <p>
-                This non-stop lead magnet magic happens because SEO bumps up
-                your visibility on search engines, letting folks who are on the
-                hunt for what you offer find you easily. And these aren’t just
-                any leads—they’re top-notch because people using search engines
-                are usually on the prowl for solutions, so they’re ready to jump
-                in!
-              </p>
-              <p>
-                Oh, and the leads you get through SEO? They know no borders.
-              </p>
-              <p>
-                You could be pulling in customers from every corner of the
-                globe.
-              </p>
-              <p>
-                SEO isn’t just another trick in the marketing book—it’s a
-                pivotal business tool that keeps your brand and products in the
-                spotlight and attracts leads every hour of every day.
-              </p>
-              <p>
-                Now, let’s jump into the fifth reason SEO is your business’s
-                best friend!
-              </p>
-            </div>
-            <div className="py-5">
-              <h3 className="text-3xl pb-5 font-semibold">
-                #5. Doing SEO is Cheaper Compared to Social Media Ads!
-              </h3>
-              <p>
-                So, with social media, you often find yourself shelling out
-                bucks on ads to get your name out there.
-              </p>
-              <p>But SEO?</p>
-              <p>
-                It doesn’t slap you with extra charges for every click or
-                impression to pull in organic traffic.
-              </p>
-              <p>And here’s the kicker: SEO has staying power.</p>
-              <p>
-                A page that ranks well can keep pulling in visitors for months,
-                heck, even years!
-              </p>
-              <p>
-                Meanwhile, a social media post might just get lost in the
-                shuffle within hours or days.
-              </p>
-              <p>Plus, the traffic you get from SEO is usually top-tier.</p>
-              <p>
-                People landing on your site via search engines are on the
-                lookout for your electrical services, so they’re primed to pay.
-              </p>
-              <p>
-                Sure, SEO and social media each have their perks, but the
-                lasting, high-quality traffic from SEO typically delivers a
-                bang-up return on investment.
-              </p>
-              <p>Bottom line?</p>
-              <p>
-                Social media’s a nice slice of the marketing pie, but for
-                long-lasting, cost-effective growth, SEO takes the cake!
-              </p>
-            </div>
-          </div>
-          <div className="py-5 lg:py-10">
-            <h2 className="text-3xl lg:text-5xl pb-5 font-bold">
-              Power Up Your Business with the Premier Electrical SEO Agency in
-              NYC: Unlock These 8 Transformative Benefits
-            </h2>
-            <p>Aiming to electrify your local market presence?</p>
-            <p>
-              For electricians in NYC, delving into local SEO isn’t just
-              advantageous; it’s essential.
-            </p>
-            <p>Here are eight compelling reasons to invest in Local SEO:</p>
-            <div>
-              <div>
-                <h3 className="text-2xl pb-5 font-semibold">
-                  Illuminate Your Local Presence
-                </h3>
-                <p>
-                  Turn your electrical service into the talk of the town. A
-                  finely tuned Local SEO strategy ensures your business doesn’t
-                  just appear in local search results—it leads them, capturing a
-                  prime spot in Google's revered Map Pack.
-                </p>
+              <div className="py-20">
+                <div className="lg:grid grid-cols-2 items-center">
+                  <div className="lg:max-w-xl lg:w-full md:w-1/2 w-5/6 sm:col-start-1 mb-10">
+                    <img
+                      className="object-cover object-center rounded"
+                      alt="SEO for Electricians in NYC."
+                      title="SEO for Electricians in NYC."
+                      src="https://dummyimage.com/720x600"
+                    />
+                  </div>
+                  <div>
+                    <h3 className="text-4xl pb-5 font-bold">
+                      #1. Other Electrical Companies in New York are Already
+                      Doing SEO
+                    </h3>
+                    <p>
+                      Ever tried looking up your services, and all you see are
+                      your competitors owning the first page?
+                    </p>
+                    <p>Don’t believe me?</p>
+                    <p>
+                      Go on, do a quick Google search for one of your services
+                      and see who’s snagging the top spots.
+                    </p>
+                    <p>It isn’t just luck!</p>
+                    <p>They’re all doing search engine optimization.</p>
+                    <p>
+                      They’ve clued into how crucial it is to be the first
+                      business people see online, so they’re using SEO to stand
+                      out, pull in customers, and expand their businesses.
+                    </p>
+                    <p>
+                      If SEO isn’t on your to-do list, you’re losing ground—and
+                      customers—to your competition. People are out there
+                      looking for your services, but they’re stumbling upon your
+                      competitors instead!
+                    </p>
+                    <p>
+                      Every day you go without SEO, your competitors are beefing
+                      up their online presence and reputation. Plus, the longer
+                      you delay jumping into SEO, the more you'll have to catch
+                      up.
+                    </p>
+                    <p>
+                      Remember, SEO isn’t an overnight game; it’s a long-haul
+                      journey. So, you might not see instant results, but it's
+                      worth it.
+                    </p>
+                    <p>
+                      If your rivals are doing SEO and you’re not, you’re not
+                      just losing a few customers. It’s a continual loss of
+                      market share that's going to be tough to win back.
+                    </p>
+                    <p>Now, let's dive into the second reason!</p>
+                  </div>
+                </div>
               </div>
-              <div>
-                <h3 className="text-2xl pb-5 font-semibold">
-                  Convert Clicks into Client Engagements
-                </h3>
-                <p>
-                  Why stop at online visibility when you can convert it into
-                  real-world consultations? Enhance your rankings and brace for
-                  an influx of client engagements—because heightened online
-                  visibility leads to more service calls.
-                </p>
+              <div className="py-20">
+                <div className="grid grid-cols-2 items-center gap-20">
+                  <div>
+                    <h3 className="text-4xl pb-5 font-bold">
+                      #2. SEO Puts You a Step Ahead of Other Electrical
+                      Companies!
+                    </h3>
+                    <p>
+                      Diving into electrical SEO lets you zoom past your
+                      competition and shine in a jam-packed market!
+                    </p>
+                    <p>
+                      Having a rock-solid SEO game plan means you’re gonna pop
+                      up near the top when folks are looking for electrical
+                      services locally.
+                    </p>
+                    <p>
+                      And when you’re up there, it’s a breeze for people to find
+                      your site.
+                    </p>
+                    <p>
+                      That means more visits, more leads, and yes, more sales!
+                    </p>
+                    <p>
+                      Statistics show that{' '}
+                      <Link
+                        href="https://www.thinkwithgoogle.com/consumer-insights/consumer-trends/location-search-conversion-statistics/"
+                        target="_blank"
+                      >
+                        28%{' '}
+                      </Link>
+                      of local searches result in a purchase.
+                    </p>
+                    <p>
+                      With top-notch SEO, your business could become the go-to
+                      electrical authority, earning you trust and love from your
+                      customers!
+                    </p>
+                    <p>And guess what?</p>
+                    <p>
+                      The perks of SEO stick around, giving you a long-lasting
+                      edge.
+                    </p>
+                    <p>
+                      So, SEO isn’t just about matching your competitors—it’s
+                      about outrunning them and grabbing a bigger slice of the
+                      market pie.
+                    </p>
+                    <p>Now, let’s hop onto the third reason!</p>
+                  </div>
+                  <div className="lg:max-w-xl lg:w-full md:w-1/2 w-5/6">
+                    <img
+                      className="object-cover object-center rounded"
+                      alt="SEO for Electricians in NYC."
+                      title="SEO for Electricians in NYC."
+                      src="https://dummyimage.com/720x600"
+                    />
+                  </div>
+                </div>
               </div>
-              <div>
-                <h3 className="text-2xl pb-5 font-semibold">
-                  Transform Searchers into Clients
-                </h3>
-                <p>
-                  Local searches are often driven by need and urgency. A search
-                  like "emergency electrician near me" holds a higher conversion
-                  potential than a generic query. Position your electrical
-                  service as the go-to response to these high-intent searches.
-                </p>
+              <div className="py-20">
+                <div className="grid grid-cols-2 items-center gap-20">
+                  <div className="lg:max-w-xl lg:w-full md:w-1/2 w-5/6">
+                    <img
+                      className="object-cover object-center rounded"
+                      alt="SEO for Electricians in NYC."
+                      title="SEO for Electricians in NYC."
+                      src="https://dummyimage.com/720x600"
+                    />
+                  </div>
+                  <div>
+                    <h3 className="text-4xl pb-5 font-bold">
+                      #3. More People Will See Your Electrical Company and
+                      Services
+                    </h3>
+                    <p>Landing on Google’s first page?</p>
+                    <p>It’s like your web presence just hit the jackpot!</p>
+                    <p>
+                      More eyes are on your electrical services and your
+                      business.
+                    </p>
+                    <p>More eyes mean more clicks, visits, and conversions.</p>
+                    <p>
+                      If people spot your website and they’re keen on your
+                      services, they’re gonna pop in for a visit.
+                    </p>
+                    <p>
+                      And hey, the more visitors you get to your electrical
+                      company’s website, the higher the chances of scoring more
+                      leads, customers, and of course, sales!
+                    </p>
+                    <p>Now, let’s splash into the fourth point!</p>
+                  </div>
+                </div>
               </div>
-              <div>
-                <h3 className="text-2xl pb-5 font-semibold">
-                  Surpass Your Local Rivals
-                </h3>
-                <p>
-                  Don’t merely keep up with the competition—eclipse them.
-                  Utilize the opportunity to outshine competitors who are either
-                  overlooking Local SEO or not leveraging it proficiently.
-                </p>
+              <div className="py-5">
+                <div className="grid grid-cols-2 items-center gap-20">
+                  <div>
+                    <h3 className="text-4xl pb-5 font-bold">
+                      #4. You’ll Be Raking in Leads 24/7!
+                    </h3>
+                    <p>
+                      Your website will become an around-the-clock worker bee.
+                    </p>
+                    <p>
+                      Unlike the old-school business models, a slick, optimized
+                      website is like having a sales buddy working full-time,
+                      pulling in new customers day and night.
+                    </p>
+                    <p>
+                      This non-stop lead magnet magic happens because SEO bumps
+                      up your visibility on search engines, letting folks who
+                      are on the hunt for what you offer find you easily.
+                    </p>
+                    <p>
+                      And these aren’t just any leads—they’re top-notch because
+                      people using search engines are usually on the prowl for
+                      solutions, so they’re ready to jump in!
+                    </p>
+                    <p>
+                      Oh, and the leads you get through SEO? They know no
+                      borders.
+                    </p>
+                    <p>
+                      You could be pulling in customers from every corner of the
+                      globe.
+                    </p>
+                    <p>
+                      SEO isn’t just another trick in the marketing book—it’s a
+                      pivotal business tool that keeps your brand and products
+                      in the spotlight and attracts leads every hour of every
+                      day.
+                    </p>
+                    <p>
+                      Now, let’s jump into the fifth reason SEO is your
+                      business’s best friend!
+                    </p>
+                  </div>
+                  <div className="lg:max-w-xl lg:w-full md:w-1/2 w-5/6">
+                    <img
+                      className="object-cover object-center rounded"
+                      alt="SEO for Electricians in NYC."
+                      title="SEO for Electricians in NYC."
+                      src="https://dummyimage.com/720x600"
+                    />
+                  </div>
+                </div>
               </div>
-              <div>
-                <h3 className="text-2xl pb-5 font-semibold">
-                  Build Your Reputation & Trust
-                </h3>
-                <p>
-                  Frequent appearances in local search results, coupled with a
-                  Google My Business profile filled with positive reviews, don’t
-                  just enhance business credibility; they elevate your service
-                  to a local benchmark. Your trust is built on your visibility.
-                </p>
+              <div className="py-20">
+                <div className="grid grid-cols-2 items-center gap-20">
+                  <div className="lg:max-w-xl lg:w-full md:w-1/2 w-5/6">
+                    <img
+                      className="object-cover object-center rounded"
+                      alt="SEO for Electricians in NYC."
+                      title="SEO for Electricians in NYC."
+                      src="https://dummyimage.com/720x600"
+                    />
+                  </div>
+                  <div>
+                    <h3 className="text-4xl pb-5 font-bold">
+                      #5. Doing SEO is Cheaper Compared to Social Media Ads!
+                    </h3>
+                    <p>
+                      So, with social media, you often find yourself shelling
+                      out bucks on ads to get your name out there.
+                    </p>
+                    <p>But SEO?</p>
+                    <p>
+                      It doesn’t slap you with extra charges for every click or
+                      impression to pull in organic traffic.
+                    </p>
+                    <p>
+                      And here’s the kicker: SEO generates{' '}
+                      <Link
+                        href="https://videos.brightedge.com/research-report/BrightEdge_ChannelReport2019_FINAL.pdf"
+                        target="_blank"
+                      >
+                        1000%
+                      </Link>{' '}
+                      more traffic than social media.
+                    </p>
+                    <p>
+                      A page that ranks well can keep pulling in visitors for
+                      months, heck, even years!
+                    </p>
+                    <p>
+                      Meanwhile, a social media post might just get lost in the
+                      shuffle within hours or days.
+                    </p>
+                    <p>
+                      Plus, the traffic you get from SEO is usually top-tier.
+                    </p>
+                    <p>
+                      People landing on your site via search engines are on the
+                      lookout for your electrical services, so they’re primed to
+                      pay.
+                    </p>
+                    <p>
+                      Sure, SEO and social media each have their perks, but the
+                      lasting, high-quality traffic from SEO typically delivers
+                      a bang-up return on investment.
+                    </p>
+                    <p>Bottom line?</p>
+                    <p>
+                      Social media’s a nice slice of the marketing pie, but for
+                      long-lasting, cost-effective growth, SEO takes the cake!
+                    </p>
+                  </div>
+                </div>
               </div>
-              <div>
-                <h3 className="text-2xl pb-5 font-semibold">
-                  Effective, Significant, & Economical
-                </h3>
-                <p>
-                  Why expend on every click when you can attract organic
-                  traffic? Contrary to paid advertising which dwindles your
-                  budget, Local SEO is an initial investment that yields
-                  enduring results.
-                </p>
-              </div>
-              <div>
-                <h3 className="text-2xl pb-5 font-semibold">
-                  Enhance Customer Engagement
-                </h3>
-                <p>
-                  The engagement journey commences way before the first service
-                  call. Features like Google My Business Messaging enable direct
-                  interaction with potential clients from the search
-                  results—addressing queries, resolving issues, and establishing
-                  rapport.
-                </p>
-              </div>
-              <div>
-                <h3 className="text-2xl pb-5 font-semibold">Transparent ROI</h3>
-                <p>
-                  NYC local SEO unclouds your ROI. Comprehensive analytics allow
-                  precise tracking of your investment. Keep a tab on critical
-                  metrics like search rankings, website traffic, and conversion
-                  rates to continuously refine your approach.
-                </p>
-              </div>
-              <p>
-                Are you prepared to elevate your electrical services in NYC and
-                become a local authority? Employ the groundbreaking advantages
-                of Local SEO and transform your visibility, customer engagement,
-                and return on investment in the electrifying landscape of New
-                York City!
-              </p>
-            </div>
-          </div>
-          <div className="py-5 lg:py-10">
-            <h2 className="text-3xl lg:text-5xl pb-5 font-bold">
-              Consequences of Ignoring Local SEO for Your Electrical Services in
-              NYC
-            </h2>
-            <p>
-              Here are the setbacks your electrical business might face when
-              bypassing local SEO:
-            </p>
-            <div>
-              <h3 className="text-2xl pb-5 font-semibold">
-                Become a Ghost in Local Searches
-              </h3>
-              <p>
-                You’ve heard it before, "Out of sight, out of mind." This rings
-                especially true in the digital realm. If your electrical service
-                doesn’t feature in local searches, potential customers seeking
-                your expertise are likely to bypass you, directing their
-                attention and money towards your competitors. It’s the digital
-                equivalent of being in the dark, and in the electric services
-                industry, this irony is a business nightmare.
-              </p>
-            </div>
-            <div>
-              <h3 className="text-2xl pb-5 font-semibold">
-                Decline in Service Calls
-              </h3>
-              <p>
-                A diminished online presence translates to fewer phone calls,
-                service requests, and client interactions. While your services
-                may be centrally located in a bustling NYC neighborhood, the
-                reliance on online searches is ever-growing. If potential
-                clients can’t find you online, the number of service calls drops
-                significantly, affecting your overall revenue stream and market
-                share.
-              </p>
-            </div>
-            <div>
-              <h3 className="text-2xl pb-5 font-semibold">
-                Forfeit Leads, Jobs, and Revenue
-              </h3>
-              <p>
-                A lower online visibility means a direct loss in potential
-                leads, jobs, and subsequently, revenue. In contrast, your
-                competitors who have a solid local SEO strategy in place
-                continue to accumulate the bulk of the local market, enhancing
-                their client base, establishing brand loyalty, and increasing
-                their overall market influence, leaving you to catch up.
-              </p>
-            </div>
-            <div>
-              <h3 className="text-2xl pb-5 font-semibold">
-                Erosion of Trust and Authority
-              </h3>
-              <p>
-                Trust is a key factor in a client’s decision-making process.
-                When people search for electricians and find validated,
-                highly-ranked services, they tend to place their trust in those
-                businesses. If your service is not amongst these top-ranked,
-                validated ones, your credibility and authority in the field
-                suffer, making potential clients hesitant to choose your
-                services over others.
-              </p>
-            </div>
-            <div>
-              <h3 className="text-2xl pb-5 font-semibold">
-                At a Competitive Disadvantage
-              </h3>
-              <p>
-                If your rivals are continually refining their local SEO game,
-                and you’re yet to implement any such strategies, they’ll swiftly
-                and steadily rank higher in search results. This disadvantage
-                not only impacts your current client acquisition but also has
-                long-lasting repercussions, allowing competitors to establish a
-                stronger, more durable market presence.
-              </p>
-            </div>
-            <div>
-              <h3 className="text-2xl pb-5 font-semibold">
-                Expensive and Time-Consuming Recovery
-              </h3>
-              <p>
-                The longer the delay in adopting a local SEO strategy, the more
-                cumbersome and costly it becomes to create a powerful online
-                presence later on. You’ll be laying the groundwork while your
-                competitors would have built towering digital empires, making it
-                exceedingly challenging to catch up and compete effectively in
-                the NYC electrical services market.
-              </p>
-            </div>
-          </div>
-          <div>
-            <h2 className="text-3xl lg:text-5xl pb-5 font-bold">
-              How Does NYC Search Engine Optimization Ignite Your Electrician
-              Business and Fuel Exponential Growth?
-            </h2>
-            <p>
-              Ever wondered how certain NYC electrician services light up on
-              Google’s first page when you’re browsing?
-            </p>
-            <p>
-              That's the luminous power of SEO for Electricians in NYC
-              sparkling!
-            </p>
-            <p>
-              Consider SEO as your online spotlight. It refines your digital
-              aura, magnetizing locals straight to your doorstep when they’re in
-              quest of electrician services.
-            </p>
-            <p>The electrifying part?</p>
-            <p>
-              These visitors are not just casual surfers; they’re in active
-              pursuit of the electrical services you excel in, charged up and
-              ready to connect!
-            </p>
-            <p>
-              Local SEO in NYC isn’t a universal template; it’s a complex
-              circuit of interconnected components.
-            </p>
-            <p>Here’s a quick blueprint:</p>
-            <div className="md:grid grid-cols-2 gap-8">
-              <div>
-                <h3 className="text-2xl pb-5 font-semibold">SEO Audit</h3>
-                <p>
-                  This is your diagnostic process, scanning your site to
-                  pinpoint and rectify faults hampering your SEO. Examine your
-                  content, backlinks, keywords, and overall visibility,
-                  addressing areas that need enhancement to optimize SEO
-                  performance.
-                </p>
-              </div>
-              <div>
-                <h3 className="text-2xl pb-5 font-semibold">On-Page SEO</h3>
-                <p>
-                  Optimizing individual pages of your site ensures each page is
-                  fine-tuned and ready to rank high. It involves optimizing
-                  content and HTML source code to resonate well with search
-                  engines and users.
-                </p>
-              </div>
-              <div>
-                <h3 className="text-2xl pb-5 font-semibold">Technical SEO</h3>
-                <p>
-                  This component is about revitalizing your website with a focus
-                  on improving its architecture, structure and code. It ensures
-                  smooth navigation for search engines to crawl and index, with
-                  an emphasis on mobile responsiveness and lightning-speed
-                  performance.
-                </p>
-              </div>
-              <div>
-                <h3 className="text-2xl pb-5 font-semibold">
-                  Keyword Research
-                </h3>
-                <p>
-                  For NYC Electricians, this involves unearthing and utilizing
-                  terms that potential customers deploy to find your electric
-                  services. It equips you with insights into consumer search
-                  behaviors, enabling you to create SEO content that aligns with
-                  their queries and ascends in search results.
-                </p>
-              </div>
-              <div>
-                <h3 className="text-2xl pb-5 font-semibold">Local SEO</h3>
-                <p>
-                  NYC Local SEO concentrates on elevating your online presence
-                  to spotlight your specific locale within this electrified
-                  city. Be it Manhattan, Brooklyn, Queens, or The Bronx, local
-                  SEO shines a light on your services, making them a standout
-                  choice for locals seeking an electrician nearby.
-                </p>
-              </div>
-              <div>
-                <h3 className="text-2xl pb-5 font-semibold">
-                  SEO Content Creation and Optimization
-                </h3>
-                <p>
-                  This is about fabricating and finessing content to resonate
-                  with search engines and prospective clients. It encapsulates
-                  constructing quality, keyword-rich content to climb the SERP
-                  ladder. It’s paramount to acknowledge that Google has an
-                  inclination towards certain content types, valuing articles
-                  and blogs immensely.
-                </p>
-              </div>
-              <div>
-                <h3 className="text-2xl pb-5 font-semibold">Link Building</h3>
-                <p>
-                  This is your digital networking strategy. Establishing
-                  high-quality, relevant backlinks fortifies your website’s
-                  authority and enhances its SEO ranking. It’s like constructing
-                  conduits between your site and others, channeling authority
-                  and trust, and bolstering your site’s credibility in Google’s
-                  eyes.
-                </p>
-              </div>
-              <div>
-                <h3 className="text-2xl pb-5 font-semibold">
-                  Competitive Analysis
-                </h3>
-                <p>
-                  This is your strategic reconnaissance. It involves
-                  scrutinizing your competitors’ online strategies, uncovering
-                  their strengths and weaknesses, and leveraging this intel to
-                  outshine them. It’s about staying a step ahead, understanding
-                  the competitive landscape, and strategically positioning your
-                  electrician services to outspark the competition.
-                </p>
-              </div>
-              <div>
-                <h3 className="text-2xl pb-5 font-semibold">
-                  Tracking and Monitoring
-                </h3>
-                <p>
-                  Evaluating the efficiency of your SEO endeavors requires
-                  persistent tracking and monitoring. This reveals whether your
-                  SEO maneuvers are truly electrifying your online visibility.
-                  Advanced tools like Google Analytics, Google Search Console,
-                  Ahrefs, and SEMrush are invaluable in navigating this
-                  analytical terrain.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="py-5 lg:py-10">
-            <h2 className="text-3xl lg:text-5xl pb-5 font-bold">
-              With a Huge Pool of Electrical SEO Companies in NYC, Why Work With
-              Me, and Trust Me to Help With Your SEO?
-            </h2>
-            <div className="py-10">
-              <h3 className="text-2xl pb-5  font-semibold">
-                #1. I Focus on Your Results
-              </h3>
-              <p>
-                I’m your go-to person for all things SEO, especially when it
-                comes to local electrical businesses in NYC.
-              </p>
-              <p>My main goal?</p>
-              <p>
-                To get you real results that genuinely help your company grow.
-              </p>
-              <p>
-                I know SEO isn’t just about getting your website to show up in
-                search results or getting lots of clicks. It’s about bringing in
-                real customers who are interested in your electrical services,
-                boosting your sales, and helping your business expand.
-              </p>
-              <p>
-                I’m all about creating strategies that do more than just make
-                your website visible — I make sure that the people who see your
-                site actually become customers, helping your revenue go up!
-              </p>
-              <p>
-                I keep a close eye on all kinds of data to see how well
-                everything’s working and tweak things as needed to get the best
-                results. And don’t worry, I’ll keep you in the loop with regular
-                updates so you can see the awesome return you’re getting on your
-                investment.
-              </p>
-              <p>
-                I’m totally committed to making sure your SEO strategies do what
-                they’re supposed to do, and I won’t stop until your business is
-                rocking. I’m here to make sure your business not only stands out
-                in the NYC, but also really succeeds and gets those customers
-                and sales you’re after!
-              </p>
-            </div>
-            <div className="py-10">
-              <h3 className="text-2xl pb-5  font-semibold">
-                #2. I Build Custom SEO Plans for Your Business
-              </h3>
-              <p>
-                I’m all about crafting SEO plans that are tailor-made for your
-                specific business needs.
-              </p>
-              <p>
-                I’m not a fan of the “one-size-fits-all” approach. Instead, I’m
-                all about picking the strategies that mesh well with your goals,
-                your industry, and, of course, your audience.
-              </p>
-              <p>
-                By really diving into understanding your business and what you
-                want to achieve online, I make sure every aspect of the plan,
-                from selecting the right keywords to creating awesome content,
-                is customized just for you to boost your online presence.
-              </p>
-              <p>
-                And I’m always tuning in, checking out the analytics and
-                performance data, and tweaking things here and there to make
-                sure everything’s running smoothly and effectively.
-              </p>
-              <p>
-                I’m totally committed to making sure your SEO strategies do what
-                they’re supposed to do, and I won’t stop until your electrical
-                company is rocking the SEO game. I’m here to make sure your
-                business not only stands out online but also really succeeds and
-                gets those customers and sales you’re after!
-              </p>
-              <p>
-                This personalized touch is my secret sauce to driving more
-                organic traffic your way and giving your site a boost in the
-                search engine rankings!
-              </p>
-            </div>
-            <div className="py-10">
-              <h3 className="text-2xl pb-5 font-semibold">
-                #3. I Know What I'm Doing
-              </h3>
-              <p>
-                I've honed my skills in many fields and have a track record of
-                getting things done.
-              </p>
-              <p>
-                I’m not a fan of the “one-size-fits-all” approach. Instead, I’m
-                all about picking the strategies that mesh well with your goals,
-                your industry, and, of course, your audience.
-              </p>
-              <p>
-                My approach to SEO is holistic, covering everything from keyword
-                research and content creation to technical SEO and link
-                building.
-              </p>
-              <p>
-                I keep up with the latest SEO trends and algorithm changes to
-                ensure my strategies are always practical and relevant. I also
-                know how important it is to communicate clearly and work with my
-                clients to help them reach their goals.
-              </p>
-              <p>
-                I’m totally committed to making sure your SEO strategies do what
-                they’re supposed to do, and I won’t stop until your electrical
-                company is rocking the SEO game. I’m here to make sure your
-                business not only stands out online but also really succeeds and
-                gets those customers and sales you’re after!
-              </p>
-              <p>
-                When you work with me, you're working with a professional who
-                knows everything there is to know about electrical SEO and how
-                to make it work for your business.
-              </p>
-            </div>
-            <div className="py-10">
-              <h3 className="text-2xl pb-5 font-semibold">
-                #4. I’m All About Transparency!
-              </h3>
-              <p>
-                Keeping you in the know about your SEO campaigns at every step
-                is super important to me.
-              </p>
-              <p>
-                I don’t just tell you what I’m up to but also why I’m doing it.
-              </p>
-              <p>
-                I’ll send you regular, easy-to-understand reports showing you
-                exactly what my work is achieving. You’ll see all the important
-                stuff—how we’re doing on key performance indicators, metrics,
-                and any milestones we’ve hit.
-              </p>
-              <p>
-                And, if we run into any snags, I’ll be straight-up with you
-                about what’s going on and how we’re going to fix it.
-              </p>
-              <p>
-                I aim to make the sometimes puzzling world of SEO super clear
-                and easy for you to get. This way, you’re not just watching from
-                the sidelines—you’re an informed member of the team.
-              </p>
-              <p>
-                Being totally open and honest is all about building a trusting
-                relationship with you. It ensures we’re working together in the
-                most genuine way possible!
-              </p>
-            </div>
-            <div className="py-10">
-              <h3 className="text-2xl pb-5 font-semibold">
-                #5. No Working with the Competition!
-              </h3>
-              <p>
-                My rule is super simple: I won’t work with any other electrical
-                companies in your local area.
-              </p>
-              <p>
-                I’m a big believer in giving my clients my full attention, and
-                that means pouring all my skills and resources into one business
-                per industry in each market area. This way, you know I’m 100% on
-                your side with no divided loyalties.
-              </p>
-              <p>
-                This also means that all the cool strategies, insights, and
-                competitive edges I come up with are yours and yours alone—none
-                of your competitors will get their hands on them!
-              </p>
-              <p>
-                I’m really dedicated to this “one-per-area” approach because it
-                lets me concentrate fully on making sure your business blows the
-                others out of the water in the search engine results!
-              </p>
             </div>
           </div>
         </div>
+        <div className="container max-w-7xl mx-auto">
+          <h2 className="text-3xl lg:text-7xl pb-5 font-bold mb-7 text-center">
+            How to Start Doing SEO for Electricians and Start Getting More Web
+            Traffic and Customers
+          </h2>
+          <p className="text-2xl text-center">
+            The surge in online presence demands a solid strategy to rise above
+            the noise and outshine the competition. Here's a comprehensive guide
+            to electrifying your website’s SEO and sparking interest in your
+            electrician services.
+          </p>
+        </div>
+        <div className="container max-w-7xl mx-auto">
+          <div className="my-20 grid grid-cols-2 item-center">
+            <div className="lg:max-w-xl lg:w-full md:w-1/2 w-5/6">
+              <img
+                className="object-cover object-center rounded"
+                alt="SEO for Electricians in NYC."
+                title="SEO for Electricians in NYC."
+                src="https://dummyimage.com/300x200"
+              />
+            </div>
+            <div>
+              <h3 className="text-2xl lg:text-4xl font-bold mb-5">
+                Understand Your Audience
+              </h3>
+              <p>
+                To harness the full potential of SEO, you need to understand
+                your target audience’s needs, preferences, and search habits.
+              </p>
+              <p>
+                The goal is to pinpoint the problems they are trying to solve
+                and present your services as the ultimate solution.
+              </p>
+              <p>
+                Create content around common queries and concerns such as
+                “emergency electrician,” “licensed electrical contractor,” or
+                “residential electrician near me”.
+              </p>
+            </div>
+          </div>
+          <div className="my-20 grid grid-cols-2 item-center">
+            <div className="lg:max-w-xl lg:w-full md:w-1/2 w-5/6">
+              <img
+                className="object-cover object-center rounded"
+                alt="SEO for Electricians in NYC."
+                title="SEO for Electricians in NYC."
+                src="https://dummyimage.com/300x200"
+              />
+            </div>
+            <div>
+              <h3 className="text-2xl lg:text-4xl font-bold mb-5">
+                Do Keyword Research:
+              </h3>
+              <p>
+                Before anything, identify the keywords your potential clients
+                are typing into search engines.
+              </p>
+              <p>
+                For an electrician like yourself in New York City, examples of
+                high-value keywords might be “licensed electrician near me,”
+                “emergency electrician queens ny,” or “residential electrical
+                service brooklyn ny.”
+              </p>
+              <p>
+                Use your keyword in the url, title-tag, meta-description, and
+                throughout the body of your content.
+              </p>
+              <p>Tools you can use to find keywords include:</p>
+              <ul className="list-disc pl-5">
+                <li>
+                  <Link
+                    href="https://neilpatel.com/ubersuggest/"
+                    target="_blank"
+                  >
+                    UberSuggest
+                  </Link>
+                </li>
+                <li>Ahrefs</li>
+                <li>Google Keyword Planner</li>
+                <li>
+                  <Link href="https://answerthepublic.com/" target="_blank">
+                    Answer the Public
+                  </Link>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div className="my-20">
+            <div className="my-20 grid grid-cols-2 items-center">
+              <div className="lg:max-w-xl lg:w-full md:w-1/2 w-5/6">
+                <img
+                  className="object-cover object-center rounded"
+                  alt="SEO for Electricians in NYC."
+                  title="SEO for Electricians in NYC."
+                  src="https://dummyimage.com/300x200"
+                />
+              </div>
+              <div>
+                <h3 className="text-4xl font-bold mb-5">
+                  Internal Website Linking:
+                </h3>
+                <p>
+                  Internal linking is a crucial part of strategy your in SEO. By
+                  creating links between the content on your website, you help
+                  users navigate and find relevant information, while also
+                  boosting the SEO power of your pages.
+                </p>
+                <p className="font-semibold">How to Do It:</p>
+                <ul className="list-disc pl-5">
+                  <li>
+                    Use descriptive anchor text that gives users and search
+                    engines information about the target page.
+                  </li>
+                  <li>
+                    Link relevant keywords within your content to other pages on
+                    your site, like services or contact pages.
+                  </li>
+                  <li>
+                    Avoid overloading pages with internal links; keep them
+                    relevant and value-adding.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div className="my-20">
+            <div className="my-20 grid grid-cols-2 item-center">
+              <div className="lg:max-w-xl lg:w-full md:w-1/2 w-5/6">
+                <img
+                  className="object-cover object-center rounded"
+                  alt="SEO for Electricians in NYC."
+                  title="SEO for Electricians in NYC."
+                  src="https://dummyimage.com/300x200"
+                />
+              </div>
+              <div>
+                <h3 className="text-2xl lg:text-4xl font-bold mb-5">
+                  On-Page SEO – Making Every Page Shine:
+                </h3>
+                <p>Optimize every element of your website with precision.</p>
+                <p className="text-xl font-semibold">
+                  Meta Titles and Descriptions:
+                </p>
+                <p>
+                  Write enticing meta titles and descriptions infused with your
+                  target keywords. They act as your website’s ad copy in search
+                  results.
+                </p>
+                <p>Example:</p>
+                <p>
+                  <span className="font-semibold">Title:</span> “Certified
+                  Electrician in [Your City] – 24/7 Emergency Services | [Your
+                  Brand]”
+                </p>
+                <p>
+                  <span className="font-semibold">Description:</span> “Looking
+                  for a trusted electrician in [Your City]? [Your Brand] offers
+                  24/7 emergency services, expert electrical repairs, and
+                  installations!”
+                </p>
+                <p className="font-semibold">Headings:</p>
+                <p>
+                  Use header tags (H1, H2, H3) strategically to structure your
+                  content and incorporate keywords naturally.
+                </p>
+                <p className="font-semibold">URL Structure:</p>
+                <p>Keep URLs short, descriptive, and keyword-rich.</p>
+                <p className="font-semibold"> Image Alt Text:</p>
+                <p>
+                  Include descriptive alt text for images, incorporating
+                  relevant keywords where possible.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="my-20">
+            <div className="my-20 grid grid-cols-2 item-center">
+              <div className="lg:max-w-xl lg:w-full md:w-1/2 w-5/6">
+                <img
+                  className="object-cover object-center rounded"
+                  alt="SEO for Electricians in NYC."
+                  title="SEO for Electricians in NYC."
+                  src="https://dummyimage.com/300x200"
+                />
+              </div>
+              <div>
+                <h3 className="text-2xl lg:text-4xl font-bold mb-5">
+                  Create a Mobile-Friendly Website
+                </h3>
+                <p>
+                  With over{' '}
+                  <Link
+                    href="https://www.statista.com/statistics/277125/share-of-website-traffic-coming-from-mobile-devices/"
+                    target="_blank"
+                  >
+                    58.99%
+                  </Link>{' '}
+                  of searches happening on mobile devices, having a responsive,
+                  mobile-friendly design is paramount. Ensure your website loads
+                  quickly and offers an intuitive user experience on various
+                  screen sizes.
+                </p>
+              </div>
+            </div>
+            <div className="my-20">
+              <div className="grid grid-cols-2 place-items-center">
+                <div className="lg:max-w-xl lg:w-full md:w-1/2 w-5/6">
+                  <img
+                    className="object-cover object-center rounded"
+                    alt="SEO for Electricians in NYC."
+                    title="SEO for Electricians in NYC."
+                    src="https://dummyimage.com/300x200"
+                  />
+                </div>
+                <div>
+                  <h3 className="text-4xl font-bold mb-5">
+                    Build Links to Your Website
+                  </h3>
+                  <p>
+                    Construct a robust link-building strategy to earn backlinks
+                    from reputable sites. Backlinks boosts your website’s
+                    authority and rankings.
+                  </p>
+                  <p>
+                    Reach out to local businesses, suppliers, or relevant blogs
+                    and offer to write guest posts or collaborate on content.
+                  </p>
+                  <p>
+                    Collaborate with other local businesses in New York for
+                    mutual backlinking opportunities.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="my-20">
+            <div className="my-20 grid grid-cols-2 items-center">
+              <div className="lg:max-w-xl lg:w-full md:w-1/2 w-5/6">
+                <img
+                  className="object-cover object-center rounded"
+                  alt="SEO for Electricians in NYC."
+                  title="SEO for Electricians in NYC."
+                  src="https://dummyimage.com/300x200"
+                />
+              </div>
+              <div>
+                <h3 className="text-4xl font-bold mb-5">
+                  Crafting Magnetic SEO Content:
+                </h3>
+                <p>
+                  Create educational, engaging, and value-driven{' '}
+                  <span className="underline font-semibold">local content</span>
+                  .
+                </p>
+                <p>
+                  Writing articles, blog posts, and how-to guides focused on
+                  electrical safety, common issues, and DIY solutions can
+                  position you as an authority and go-to company in your part of
+                  NYC.
+                </p>
+                <p className="font-semibold">
+                  Examples of articles and guides to write include:
+                </p>
+                <p>“10 Signs You Need to Call an Electrician Immediately.”</p>
+                <p>“How to Save Energy and Reduce Your Electric Bills.”</p>
+                <p>“What to do if your circuit breaker trips.”</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="container max-w-7xl mx-auto">
+          <div className="py-5 lg:py-10">
+            <h2 className="text-3xl lg:text-7xl pb-5 font-bold text-center">
+              Local SEO Tips for Electrical Service Companies in New York
+            </h2>
+            <div className="py-10">
+              <div className="py-5">
+                <h3 className="text-4xl font-bold mb-5">
+                  #1. Set up and optimize your Google My Business profile
+                </h3>
+                <p>
+                  Creating and optimizing a Google My Business (GMB) profile is
+                  a fundamental step for any electrical service company in New
+                  York City looking to enhance its local SEO.
+                </p>
+                <p>
+                  Here’s a detailed guide to setting up and refining your GMB
+                  profile.
+                </p>
+                <div>
+                  <div className="p-5">
+                    <p className="font-semibold">
+                      1. Create/Claim Your Profile
+                    </p>
+                    <p>
+                      Start by visiting the Google My Business website and
+                      create or claim your business listing. Ensure that your
+                      business isn’t already listed to avoid duplicate entries.
+                    </p>
+                  </div>
+                  <div className="p-5">
+                    <p className="font-semibold">
+                      2. Complete Your Information
+                    </p>
+                    <p>
+                      Enter all the requisite details such as business name,
+                      address, phone number, website, and service areas.
+                      Consistency is key; ensure your NAP (Name, Address, Phone
+                      Number) information is identical across the web.
+                    </p>
+                  </div>
+                  <div className="p-5">
+                    <p className="font-semibold">
+                      3. Choose Relevant Categories
+                    </p>
+                    <p>
+                      Select the category that best describes your electrical
+                      service company. This will either be:
+                    </p>
+                    <ul className="list-disc pl-10">
+                      <li>Electrician</li>
+                      <li>Electrical installation service</li>
+                      <li>Electrical engineer</li>
+                    </ul>
+                    <p>
+                      This will help Google understand your business and match
+                      it with relevant searches.
+                    </p>
+                  </div>
+                  <div className="p-5">
+                    <p className="font-semibold">4. Add High-Quality Images</p>
+                    <p>
+                      Upload high-resolution images of your business, staff, and
+                      completed projects. Images significantly impact
+                      click-through rates, providing potential customers with a
+                      visual overview of your services.
+                    </p>
+                  </div>
+                  <div className="p-5">
+                    <p className="font-semibold">
+                      5. Gather and Respond to Reviews
+                    </p>
+                    <p>
+                      Encourage satisfied customers to leave positive reviews
+                      and respond promptly to all reviews, addressing any
+                      concerns raised by dissatisfied clients. Reviews play a
+                      pivotal role in local search rankings and building trust
+                      with potential customers.
+                    </p>
+                  </div>
+                  <div className="p-5">
+                    <p className="font-semibold">6. Use Local Keywords</p>
+                    <p>
+                      Infuse your profile description and services with local
+                      keywords relevant to New York City and the electrical
+                      service industry. This could include terms like “NYC
+                      electrician,” “licensed electrician in New York,” or
+                      “Manhattan electrical services.”
+                    </p>
+                  </div>
+                  <div className="p-5">
+                    <p className="font-semibold">7. Update Regularly</p>
+                    <p>
+                      Regularly update your profile with posts, offers, and
+                      business updates to keep potential customers informed and
+                      engaged.
+                    </p>
+                  </div>
+                  <div className="p-5">
+                    <p className="font-semibold">8. Leverage Posts Feature</p>
+                    <p>
+                      Use the Posts feature to showcase your latest projects,
+                      share updates, or publish informative content relevant to
+                      electrical services in New York City.
+                    </p>
+                  </div>
+                  <div className="p-5">
+                    <p className="font-semibold">
+                      9. Optimize for Questions & Answers
+                    </p>
+                    <p>
+                      Actively participate in the Questions & Answers section,
+                      providing detailed and helpful responses to inquiries from
+                      users. Use this feature as an opportunity to address
+                      common concerns and showcase your expertise.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="py-5">
+                <h3 className="text-4xl font-bold mb-5">
+                  #2. Get local backlinks
+                </h3>
+                <p>
+                  Securing local backlinks is a powerful strategy for enhancing
+                  the local SEO of electrical service companies in New York
+                  City. Backlinks act as endorsements, signifying to search
+                  engines that your content is credible and valuable. Here’s a
+                  detailed guide to acquiring local backlinks:
+                </p>
+                <div>
+                  <div className="p-5">
+                    <p className="font-semibold">
+                      1. Engage with local communities you want to do business
+                      in
+                    </p>
+                    <p>
+                      Participate in local community events, workshops, or
+                      forums in New York City, and seek opportunities to earn
+                      backlinks from local community websites, forums, or news
+                      outlets covering the event.
+                    </p>
+                  </div>
+                  <div className="p-5">
+                    <p className="font-semibold">
+                      2. Partner with Local Businesses
+                    </p>
+                    <p>
+                      Collaborate with other local businesses in New York City
+                      that offer complementary services and exchange backlinks.
+                      For instance, partnering with local construction firms or
+                      real estate agencies can be mutually beneficial.
+                    </p>
+                  </div>
+                  <div className="p-5">
+                    <p className="font-semibold">
+                      3. Create Shareable Local Content
+                    </p>
+                    <p>
+                      Develop compelling, relevant, and informative content
+                      focused on electrical services in New York City. This
+                      could include blog posts, infographics, or videos
+                      addressing local electrical issues, trends, or news.
+                      High-quality content is more likely to be shared and
+                      linked to.
+                    </p>
+                  </div>
+                  <div className="p-5">
+                    <p className="font-semibold">
+                      4. Join Local Business Associations
+                    </p>
+                    <p>
+                      Become a member of local business chambers, trade
+                      associations, or join local business directories like:
+                    </p>
+                    <ul className="list-disc pl-5 py-10">
+                      <li>
+                        <Link href="https://www.bbb.org/" target="_blank">
+                          Better Business Bureau
+                        </Link>
+                      </li>
+                      <li>
+                        <Link
+                          href="https://www.brooklynchamber.com/"
+                          target="_blank"
+                        >
+                          Broolyn Cahmber of Commerce
+                        </Link>
+                      </li>
+                      <li>
+                        <Link
+                          href="https://www.queenschamber.org/"
+                          target="_blank"
+                        >
+                          Queens Chamber of Commerce
+                        </Link>
+                      </li>
+                      <li>
+                        <Link
+                          href="https://www.manhattancc.org/common/11099/default.cfm?clientID=11099&thispage=home"
+                          target="_blank"
+                        >
+                          Manhatan Chamber of Commerce
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href="https://www.sichamber.com/" target="_blank">
+                          Staten Island Chamber of Commerce
+                        </Link>
+                      </li>
+                    </ul>{' '}
+                    <p>
+                      These organizations often provide members with profile
+                      pages where you can add backlinks to your website.
+                    </p>
+                  </div>
+                  <div className="p-5">
+                    <p className="font-semibold">
+                      5. Sponsor Local Events or Charities
+                    </p>
+                    <p>
+                      Sponsor local events, sports teams, or charities in New
+                      York City. Sponsoring often yields backlinks from the
+                      sponsored entities’ websites or event pages.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="py-5">
+                <h3 className="text-4xl font-bold mb-5">
+                  #3. Build a Solid Review Strategy
+                </h3>
+                <p>
+                  Building a robust review strategy is crucial for electrical
+                  service companies in New York City to bolster online
+                  reputation, improve local SEO, and convert potential
+                  customers. Below are strategic steps to cultivate and manage
+                  reviews effectively:
+                </p>
+                <div>
+                  <div className="p-5">
+                    <p className="font-semibold">
+                      1. Request Reviews Proactively
+                    </p>
+                    <p>
+                      After completing a service, kindly ask satisfied customers
+                      to leave a review on your Google My Business, Yelp, or
+                      Facebook page. Clearly explain how their feedback helps
+                      others and improves your service.
+                    </p>
+                  </div>
+                  <div className="p-5">
+                    <p className="font-semibold">
+                      2. Make Submitting Reviews Easy
+                    </p>
+                    <p>
+                      Provide direct links to your review profiles in emails,
+                      invoices, or text messages. The easier you make it for
+                      customers to leave a review, the more likely they are to
+                      do so.
+                    </p>
+                  </div>
+                  <div className="p-5">
+                    <p className="font-semibold">3. Incentivize Reviews</p>
+                    <p>
+                      Consider offering small incentives such as discounts or
+                      promotional items to encourage customers to leave reviews.
+                      Ensure this is done ethically and in compliance with the
+                      policies of review platforms.
+                    </p>
+                  </div>
+                  <div className="p-5">
+                    <p className="font-semibold">4. Respond to All Reviews</p>
+                    <p>
+                      Whether positive or negative, respond promptly, and
+                      professionally to every review. Thank reviewers for
+                      positive feedback and address any concerns or issues
+                      raised in negative reviews, offering solutions where
+                      possible.
+                    </p>
+                  </div>
+                  <div className="p-5">
+                    <p className="font-semibold">
+                      5. Leverage Negative Feedback
+                    </p>
+                    <p>
+                      Use negative reviews as an opportunity to demonstrate your
+                      commitment to customer satisfaction and to refine your
+                      services. Address the concerns raised, make amends if
+                      necessary, and ensure the issue is resolved.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="container max-w-7xl mx-auto">
+          <div className="py-5 lg:py-10">
+            <h2 className="text-3xl lg:text-7xl pb-5 font-bold">
+              Consequences of Ignoring Local SEO for Your Electrical Services
+              Business
+            </h2>
+            <p className="pb-10">
+              Here are the setbacks your electrical business might face when
+              bypassing local SEO:
+            </p>
+            <div className="flex justify-between">
+              <img src="images/x-button.png" className=" w-16 h-16"></img>
+              <div className="pl-20">
+                <h3 className="text-2xl pb-5 font-semibold">
+                  Become a Ghost in Local Searches
+                </h3>
+                <p>
+                  You’ve heard it before, "Out of sight, out of mind." This
+                  rings especially true in the digital realm. If your electrical
+                  service doesn’t feature in local searches, potential customers
+                  seeking your expertise are likely to bypass you, directing
+                  their attention and money towards your competitors. It’s the
+                  digital equivalent of being in the dark, and in the electric
+                  services industry, this irony is a business nightmare.
+                </p>
+              </div>
+            </div>
+            <div className="flex justify-between">
+              <img src="images/x-button.png" className=" w-16 h-16"></img>
+              <div className="pl-20">
+                <h3 className="text-2xl pb-5 font-semibold">
+                  Decline in Service Calls
+                </h3>
+                <p>
+                  A diminished online presence translates to fewer phone calls,
+                  service requests, and client interactions. While your services
+                  may be centrally located in a bustling NYC neighborhood, the
+                  reliance on online searches is ever-growing. If potential
+                  clients can’t find you online, the number of service calls
+                  drops significantly, affecting your overall revenue stream and
+                  market share.
+                </p>
+              </div>
+            </div>
+            <div className="flex justify-between">
+              <img src="images/x-button.png" className=" w-16 h-16"></img>
+              <div className="pl-20">
+                <h3 className="text-2xl pb-5 font-semibold">
+                  Forfeit Leads, Jobs, and Revenue
+                </h3>
+                <p>
+                  A lower online visibility means a direct loss in potential
+                  leads, jobs, and subsequently, revenue. In contrast, your
+                  competitors who have a solid local SEO strategy in place
+                  continue to accumulate the bulk of the local market, enhancing
+                  their client base, establishing brand loyalty, and increasing
+                  their overall market influence, leaving you to catch up.
+                </p>
+              </div>
+            </div>
+            <div className="flex justify-between">
+              <img src="images/x-button.png" className=" w-16 h-16"></img>
+              <div className="pl-20">
+                <h3 className="text-2xl pb-5 font-semibold">
+                  Erosion of Trust and Authority
+                </h3>
+                <p>
+                  Trust is a key factor in a client’s decision-making process.
+                  When people search for electricians and find validated,
+                  highly-ranked services, they tend to place their trust in
+                  those businesses. If your service is not amongst these
+                  top-ranked, validated ones, your credibility and authority in
+                  the field suffer, making potential clients hesitant to choose
+                  your services over others.
+                </p>
+              </div>
+            </div>
+            <div className="flex justify-between">
+              <img src="images/x-button.png" className=" w-16 h-16"></img>
+              <div className="pl-20">
+                <h3 className="text-2xl pb-5 font-semibold">
+                  At a Competitive Disadvantage
+                </h3>
+                <p>
+                  If your rivals are continually refining their local SEO game,
+                  and you’re yet to implement any such strategies, they’ll
+                  swiftly and steadily rank higher in search results. This
+                  disadvantage not only impacts your current client acquisition
+                  but also has long-lasting repercussions, allowing competitors
+                  to establish a stronger, more durable market presence.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="container max-7xl mx-auto py-10">
+          <p className="text-4xl leading-26 p-10 bg-slate-200 rounded">
+            The longer you delay adopting a local SEO strategy, the more costly
+            it becomes to create a powerful online presence later on. You’ll be
+            laying the groundwork while your competitors would have built
+            towering digital empires, making it exceedingly challenging to catch
+            up and compete effectively in the NYC electrical services market.
+          </p>
+        </div>
+
         <div className="container max-7xl mx-auto py-10">
           <div className="py-5 lg:py-10">
             <h2 className="lg:text-center text-3xl lg:text-5xl pb-20 font-bold">
@@ -966,59 +1253,7 @@ export default function Home() {
           </div>
         </div>
       </main>
-      <section class="text-gray-600 body-font relative">
-        <div class="absolute inset-0 bg-gray-300">
-          {/* <iframe
-            width="100%"
-            height="100%"
-            style="filter: grayscale(1) contrast(1.2) opacity(0.4);"
-            frameborder="0"
-            marginheight="0"
-            marginwidth="0"
-            title="map"
-            scrolling="no"
-            src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=%C4%B0zmir+(My%20Business%20Name)&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed"
-          ></iframe> */}
-        </div>
-        <div class="container px-5 py-24 mx-auto flex">
-          <div class="lg:w-1/3 md:w-1/2 bg-white rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0 relative z-10 shadow-md">
-            <h2 class="text-gray-900 text-lg mb-1 font-medium title-font">
-              Feedback
-            </h2>
-            <p class="leading-relaxed mb-5 text-gray-600">
-              Post-ironic portland shabby chic echo park, banjo fashion axe
-            </p>
-            <div class="relative mb-4">
-              <label for="email" class="leading-7 text-sm text-gray-600">
-                Email
-              </label>
-              <input
-                type="email"
-                id="email"
-                name="email"
-                class="w-full bg-white rounded border border-gray-300 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-              />
-            </div>
-            <div class="relative mb-4">
-              <label for="message" class="leading-7 text-sm text-gray-600">
-                Message
-              </label>
-              <textarea
-                id="message"
-                name="message"
-                class="w-full bg-white rounded border border-gray-300 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
-              ></textarea>
-            </div>
-            <button class="text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg">
-              Button
-            </button>
-            <p class="text-xs text-gray-500 mt-3">
-              Chicharrones blog helvetica normcore iceland tousled brook viral
-              artisan.
-            </p>
-          </div>
-        </div>
-      </section>
+
       <Footer />
     </>
   )
