@@ -16,7 +16,7 @@ export default function Home() {
         <section className="text-gray-600 body-font">
           <div className="container mx-auto flex px-5 py-24 lg:py-56 md:flex-row flex-col items-center">
             <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-              <h1 className="text-6xl lg:text-9xl pb-5 font-bold text-gray-900">
+              <h1 className="text-6xl lg:text-8xl pb-5 font-bold text-gray-900">
                 SEO For Electricians in NYC
                 {/* <br class="hidden lg:inline-block">readymade gluten</br> */}
               </h1>
@@ -31,12 +31,12 @@ export default function Home() {
                 >
                   Get Your Free Website Audit &#8594;
                 </Link>
-                <Link
+                {/* <Link
                   href=""
                   className="inline-flex border-0 py-4 px-8  focus:outline-none  text-xl no-underline text-black"
                 >
                   Contact Me Today &#8594;
-                </Link>
+                </Link> */}
                 {/* <button className="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">
                   Get Your Free SEO Audit &#8594;
                 </button> */}
@@ -62,7 +62,13 @@ export default function Home() {
           </p>
         </div> */}
         <div className="container max-auto max-w-8xl mx-auto py-20  grid grid-col-1 lg:grid-cols-2 gap-20 items-center">
-          <img src="images/electrician.webp" className="rounded order-2" />
+          <img
+            src="images/electrician.webp"
+            alt="Electrician in NYC."
+            className="rounded order-2 sm:mx-auto"
+            width={600}
+            height={1000}
+          />
           <div className="order-1">
             <h2 className="text-3xl lg:text-7xl pb-5 font-bold mb-7">
               What is SEO for Electricians in New York City?
@@ -70,14 +76,18 @@ export default function Home() {
             <p>
               SEO, or Search Engine Optimization, isn’t just another piece of
               jargon; it’s an essential component for electricians looking to
-              grow their presence.
+              grow their presence online.
             </p>
-            <p>Especially in New York City and more than 18,000,000 people.</p>
+            <p>
+              Especially in New York City with more than 18,000,000 peole and
+              potential customers.
+            </p>
             <p>
               With more than{' '}
               <Link
                 href="https://www.bls.gov/oes/current/oes472111.htm#st"
                 target="_blank"
+                className="underline underline-offset-8 decoration-2 "
               >
                 39,000
               </Link>{' '}
@@ -90,7 +100,8 @@ export default function Home() {
             </p>
             <p>
               You have your arsenal of tools, a team of certified electricians,
-              and a commitment to power up the city and your customers.
+              and a commitment to provide excellent customer service and your
+              customers.
             </p>
             <p>Meet Jane.</p>
             <p>
@@ -123,6 +134,7 @@ export default function Home() {
               <Link
                 href="https://backlinko.com/google-ctr-stats"
                 target="_blank"
+                className="underline underline-offset-8 decoration-2 "
               >
                 54.4%
               </Link>{' '}
@@ -146,8 +158,8 @@ export default function Home() {
                 Electricians
               </h2>
               <p className="text-xl text-center">
-                Here are five reasons you need a SEO specialist and why you
-                should start practicing SEO on your website
+                Here are five reasons you need an SEO specialist and why you
+                should start practicing Electrical SEO on your website
               </p>
               <div className="py-20">
                 <div className="lg:grid grid-cols-2 items-center">
@@ -234,6 +246,7 @@ export default function Home() {
                       <Link
                         href="https://www.thinkwithgoogle.com/consumer-insights/consumer-trends/location-search-conversion-statistics/"
                         target="_blank"
+                        className="underline underline-offset-8 decoration-2 "
                       >
                         28%{' '}
                       </Link>
@@ -382,6 +395,7 @@ export default function Home() {
                       <Link
                         href="https://videos.brightedge.com/research-report/BrightEdge_ChannelReport2019_FINAL.pdf"
                         target="_blank"
+                        className="underline underline-offset-8 decoration-2 "
                       >
                         1000%
                       </Link>{' '}
@@ -493,6 +507,7 @@ export default function Home() {
                   <Link
                     href="https://neilpatel.com/ubersuggest/"
                     target="_blank"
+                    className="underline underline-offset-8 decoration-2 "
                   >
                     UberSuggest
                   </Link>
@@ -500,7 +515,11 @@ export default function Home() {
                 <li>Ahrefs</li>
                 <li>Google Keyword Planner</li>
                 <li>
-                  <Link href="https://answerthepublic.com/" target="_blank">
+                  <Link
+                    href="https://answerthepublic.com/"
+                    target="_blank"
+                    className="underline underline-offset-8 decoration-2 "
+                  >
                     Answer the Public
                   </Link>
                 </li>
@@ -614,6 +633,7 @@ export default function Home() {
                   <Link
                     href="https://www.statista.com/statistics/277125/share-of-website-traffic-coming-from-mobile-devices/"
                     target="_blank"
+                    className="underline underline-offset-8 decoration-2 "
                   >
                     58.99%
                   </Link>{' '}
@@ -715,9 +735,17 @@ export default function Home() {
                       1. Create/Claim Your Google My Business Profile
                     </p>
                     <p>
-                      Start by visiting the Google My Business website and
-                      create or claim your business listing. Ensure that your
-                      business isn’t already listed to avoid duplicate entries.
+                      Start by visiting the{' '}
+                      <Link
+                        href="https://www.google.com/business/"
+                        target="_blank"
+                        className="underline underline-offset-8 decoration-2 "
+                      >
+                        Google My Business
+                      </Link>{' '}
+                      website and create or claim your business listing. Ensure
+                      that your business isn’t already listed to avoid duplicate
+                      entries.
                     </p>
                   </div>
                   <div className="p-5">
@@ -867,7 +895,11 @@ export default function Home() {
                     </p>
                     <ul className="list-disc pl-5 py-10">
                       <li>
-                        <Link href="https://www.bbb.org/" target="_blank">
+                        <Link
+                          href="https://www.bbb.org/"
+                          target="_blank"
+                          className="underline underline-offset-8 decoration-2 "
+                        >
                           Better Business Bureau
                         </Link>
                       </li>
@@ -875,6 +907,7 @@ export default function Home() {
                         <Link
                           href="https://www.brooklynchamber.com/"
                           target="_blank"
+                          className="underline underline-offset-8 decoration-2 "
                         >
                           Broolyn Cahmber of Commerce
                         </Link>
@@ -883,6 +916,7 @@ export default function Home() {
                         <Link
                           href="https://www.queenschamber.org/"
                           target="_blank"
+                          className="underline underline-offset-8 decoration-2 "
                         >
                           Queens Chamber of Commerce
                         </Link>
@@ -891,12 +925,17 @@ export default function Home() {
                         <Link
                           href="https://www.manhattancc.org/common/11099/default.cfm?clientID=11099&thispage=home"
                           target="_blank"
+                          className="underline underline-offset-8 decoration-2 "
                         >
                           Manhatan Chamber of Commerce
                         </Link>
                       </li>
                       <li>
-                        <Link href="https://www.sichamber.com/" target="_blank">
+                        <Link
+                          href="https://www.sichamber.com/"
+                          target="_blank"
+                          className="underline underline-offset-8 decoration-2 "
+                        >
                           Staten Island Chamber of Commerce
                         </Link>
                       </li>
@@ -923,11 +962,31 @@ export default function Home() {
                   #3. Build a Solid Review Strategy
                 </h3>
                 <p>
-                  Building a robust review strategy is crucial for electrical
-                  service companies in New York City to bolster online
-                  reputation, improve local SEO, and convert potential
-                  customers. Below are strategic steps to cultivate and manage
-                  reviews effectively:
+                  Becasue{' '}
+                  <Link
+                    href="https://www.safaridigital.com.au/blog/local-seo-statistics/"
+                    target="_blank"
+                    className="underline underline-offset-8 decoration-2 "
+                  >
+                    88%
+                  </Link>{' '}
+                  of consumers read reviews before doing business with a
+                  company, and{' '}
+                  <Link
+                    href="https://www.safaridigital.com.au/blog/local-seo-statistics/"
+                    target="_blank"
+                    className="underline underline-offset-8 decoration-2 "
+                  >
+                    73%
+                  </Link>{' '}
+                  of people trust businesses with online reviews, it makes
+                  building a review strategy crucial for companies that want to
+                  build your online reputation, improve local SEO, and convert
+                  potential customers.
+                </p>
+                <p>
+                  Below are strategic steps to cultivate and manage reviews
+                  effectively:
                 </p>
                 <div>
                   <div className="p-5">
@@ -937,8 +996,17 @@ export default function Home() {
                     <p>
                       After completing a service, kindly ask satisfied customers
                       to leave a review on your Google My Business, Yelp, or
-                      Facebook page. Clearly explain how their feedback helps
-                      others and improves your service.
+                      Facebook page. Stats show that{' '}
+                      <Link
+                        href="https://www.brightlocal.com/resources/online-reviews-statistics/"
+                        target="_blank"
+                        className="underline underline-offset-8 decoration-2 "
+                      >
+                        87%
+                      </Link>{' '}
+                      of people have or are willing to write a review of a
+                      business. Clearly explain how their feedback helps others
+                      and improves your service.
                     </p>
                   </div>
                   <div className="p-5">
@@ -989,7 +1057,7 @@ export default function Home() {
         </div>
         <div className="container max-w-7xl mx-auto">
           <div className="py-5 lg:py-10">
-            <h2 className="text-3xl lg:text-7xl pb-5 font-bold">
+            <h2 className="text-3xl lg:text-7xl pb-5 font-bold text-center">
               Consequences of Ignoring Local SEO for Your Electrical Services
               Business
             </h2>
@@ -998,24 +1066,33 @@ export default function Home() {
               bypassing local SEO:
             </p>
             <div className="flex justify-between">
-              <img src="images/x-button.png" className=" w-16 h-16"></img>
+              <img
+                src="images/x-button.png"
+                className=" w-16 h-16"
+                alt="X mark."
+              ></img>
               <div className="pl-20">
                 <h3 className="text-2xl pb-5 font-semibold">
                   Become a Ghost in Local Searches
                 </h3>
                 <p>
                   You’ve heard it before, "Out of sight, out of mind." This
-                  rings especially true in the digital realm. If your electrical
-                  service doesn’t feature in local searches, potential customers
-                  seeking your expertise are likely to bypass you, directing
-                  their attention and money towards your competitors. It’s the
-                  digital equivalent of being in the dark, and in the electric
-                  services industry, this irony is a business nightmare.
+                  rings especially true in the digital marketing. If your
+                  electrical service doesn’t feature in local searches,
+                  potential customers seeking your expertise are likely to
+                  bypass you, directing their attention and money towards your
+                  competitors. It’s the digital equivalent of being in the dark,
+                  and in the electric services industry, this irony is a
+                  business nightmare.
                 </p>
               </div>
             </div>
             <div className="flex justify-between">
-              <img src="images/x-button.png" className=" w-16 h-16"></img>
+              <img
+                src="images/x-button.png"
+                className=" w-16 h-16"
+                alt="X mark."
+              ></img>
               <div className="pl-20">
                 <h3 className="text-2xl pb-5 font-semibold">
                   Decline in Service Calls
@@ -1032,7 +1109,11 @@ export default function Home() {
               </div>
             </div>
             <div className="flex justify-between">
-              <img src="images/x-button.png" className=" w-16 h-16"></img>
+              <img
+                src="images/x-button.png"
+                className=" w-16 h-16"
+                alt="X mark."
+              ></img>
               <div className="pl-20">
                 <h3 className="text-2xl pb-5 font-semibold">
                   Forfeit Leads, Jobs, and Revenue
@@ -1048,24 +1129,42 @@ export default function Home() {
               </div>
             </div>
             <div className="flex justify-between">
-              <img src="images/x-button.png" className=" w-16 h-16"></img>
+              <img
+                src="images/x-button.png"
+                className=" w-16 h-16"
+                alt="X mark."
+              ></img>
               <div className="pl-20">
                 <h3 className="text-2xl pb-5 font-semibold">
                   Erosion of Trust and Authority
                 </h3>
                 <p>
-                  Trust is a key factor in a client’s decision-making process.
-                  When people search for electricians and find validated,
-                  highly-ranked services, they tend to place their trust in
-                  those businesses. If your service is not amongst these
-                  top-ranked, validated ones, your credibility and authority in
-                  the field suffer, making potential clients hesitant to choose
-                  your services over others.
+                  Trust is a key factor in a customer’s decision-making process
+                  and{' '}
+                  <Link
+                    href="https://www.brightlocal.com/resources/online-reviews-statistics/"
+                    target="_blank"
+                    className="underline underline-offset-8 decoration-2 "
+                  >
+                    40%
+                  </Link>{' '}
+                  of consumers expect a business to have at least four stars
+                  before they consider making a purchase. When people search for
+                  electricians and find validated, highly-ranked services, they
+                  tend to place their trust in those businesses. If your service
+                  is not amongst these top-ranked, validated ones, your
+                  credibility and authority in the field suffer, making
+                  potential clients hesitant to choose your services over
+                  others.
                 </p>
               </div>
             </div>
             <div className="flex justify-between">
-              <img src="images/x-button.png" className=" w-16 h-16"></img>
+              <img
+                src="images/x-button.png"
+                className=" w-16 h-16"
+                alt="X mark."
+              ></img>
               <div className="pl-20">
                 <h3 className="text-2xl pb-5 font-semibold">
                   At a Competitive Disadvantage
@@ -1098,7 +1197,7 @@ export default function Home() {
             <h2 className="lg:text-center text-3xl lg:text-5xl pb-20 font-bold">
               FAQ: SEO for Electricians in New York City
             </h2>
-            <div className="grid grid-cols-2 gap-10">
+            <div className="lg:grid grid-cols-2 gap-10">
               <div>
                 <h3 className="text-2xl pb-5 font-semibold">
                   What is SEO and why is it important for electricians in New

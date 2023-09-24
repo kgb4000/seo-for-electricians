@@ -17,7 +17,8 @@ const about = () => {
               {/* <br class="hidden lg:inline-block">readymade gluten</br> */}
             </h1>
             <p className="mb-8 leading-relaxed text-2xl">
-              An SEO specialist in Electrical SEO for Companie in New York City!
+              An SEO specialist in Electrical SEO for Companies in New York
+              City!
             </p>
             <div className="flex justify-center">
               <button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
