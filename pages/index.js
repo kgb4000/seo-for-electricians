@@ -712,7 +712,7 @@ export default function Home() {
                 <div>
                   <div className="p-5">
                     <p className="font-semibold">
-                      1. Create/Claim Your Profile
+                      1. Create/Claim Your Google My Business Profile
                     </p>
                     <p>
                       Start by visiting the Google My Business website and
