@@ -57,7 +57,7 @@ export default function Header() {
           <div className="hidden lg:flex lg:flex-1 lg:justify-end">
             <Link
               href="#"
-              className="text-sm inline-flex text-white bg-orange-400 border-0 py-4 px-8  focus:outline-none hover:bg-orange-500 rounded no-underline"
+              className="text-lg inline-flex text-white bg-orange-800 border-0 py-4 px-8  focus:outline-none hover:bg-orange-700 rounded no-underline"
             >
               Get Your Free Website Audit <span aria-hidden="true">&rarr;</span>
             </Link>
@@ -72,13 +72,11 @@ export default function Header() {
           <div className="fixed inset-0 z-50" />
           <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
             <div className="flex items-center justify-between">
-              <Link href="#" className="-m-1.5 p-1.5">
-                <span className="sr-only">Your Company</span>
-                <img
-                  className="h-8 w-auto"
-                  src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
-                  alt=""
-                />
+              <Link href="#" className="-m-1.5 p-1.5 no-underline">
+                <span className="sr-only">SEO for Electricians</span>
+                <div className="text-black text-2xl font-bold">
+                  SEO for Electricians
+                </div>
               </Link>
               <button
                 type="button"
@@ -105,7 +103,7 @@ export default function Header() {
                 <div className="py-6">
                   <a
                     href="#"
-                    className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                    className="-mx-3 block rounded-lg px-3 py-2.5 text-xl font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                   >
                     Get Your Free Website Audit
                   </a>

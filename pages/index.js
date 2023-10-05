@@ -22,24 +22,15 @@ export default function Home() {
               </h1>
               <p className="mb-8 leading-relaxed text-2xl">
                 Boost Your Company's Growth & Visibility with Custom Electrical
-                SEO Services Exclusively for Electricians in New York City!
+                SEO Exclusively for Electricians in New York City!
               </p>
               <div className="flex justify-center">
                 <Link
-                  href=""
-                  className="inline-flex text-white bg-orange-400 border-0 py-4 px-8  focus:outline-none hover:bg-orange-500 rounded text-xl no-underline"
+                  href="#diagnosis"
+                  className="inline-flex text-white bg-orange-800 border-0 py-4 px-8  focus:outline-none hover:bg-orange-700 rounded text-2xl no-underline"
                 >
-                  Get Your Free Website Audit &#8594;
+                  Get Your Free SEO Diagnosis &#8594;
                 </Link>
-                {/* <Link
-                  href=""
-                  className="inline-flex border-0 py-4 px-8  focus:outline-none  text-xl no-underline text-black"
-                >
-                  Contact Me Today &#8594;
-                </Link> */}
-                {/* <button className="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">
-                  Get Your Free SEO Audit &#8594;
-                </button> */}
               </div>
             </div>
             <div className="lg:max-w-xl lg:w-full md:w-1/2 w-5/6">
@@ -47,7 +38,7 @@ export default function Home() {
                 className="object-cover object-center rounded"
                 alt="SEO for Electricians in NYC."
                 title="SEO for Electricians in NYC."
-                src="https://dummyimage.com/720x600"
+                src="/images/seo-for-electricians-in-nyc.jpg"
               />
             </div>
           </div>
@@ -61,143 +52,123 @@ export default function Home() {
             for Electricians!
           </p>
         </div> */}
-        <div className="container max-auto max-w-8xl mx-auto py-20  grid grid-col-1 lg:grid-cols-2 gap-20 items-center">
-          <img
-            src="images/electrician.webp"
-            alt="Electrician in NYC."
-            className="rounded order-2 sm:mx-auto"
-            width={600}
-            height={1000}
-          />
-          <div className="order-1">
-            <h2 className="text-3xl lg:text-7xl pb-5 font-bold mb-7">
-              What is SEO for Electricians in New York City?
-            </h2>
-            <p>
-              SEO, or Search Engine Optimization, isn’t just another piece of
-              jargon; it’s an essential component for electricians looking to
-              grow their presence online.
-            </p>
-            <p>
-              Especially in New York City with more than 18,000,000 peole and
-              potential customers.
-            </p>
-            <p>
-              With more than{' '}
-              <Link
-                href="https://www.bls.gov/oes/current/oes472111.htm#st"
-                target="_blank"
-                className="underline underline-offset-8 decoration-2 "
-              >
-                39,000
-              </Link>{' '}
-              electricians in New York, search engine optimization is a must.
-            </p>
-            <p>Let me paint a picture for you:</p>
-            <p>
-              Imagine you’re running your electrical company in Crown Heights,
-              Brooklyn.
-            </p>
-            <p>
-              You have your arsenal of tools, a team of certified electricians,
-              and a commitment to provide excellent customer service and your
-              customers.
-            </p>
-            <p>Meet Jane.</p>
-            <p>
-              She’s just leased a chic apartment in Crown Heights and is in
-              urgent need of an electrician to install some designer fixtures.
-            </p>
-            <p>
-              Instead of browsing through the endless yellow pages or consulting
-              her busy neighbors, Jane will likely pull out her smartphone or
-              laptop and search for "electrician near me."
-            </p>
-            <p>This is where local SEO shines for electricians!</p>
-            <p>
-              With a well-optimized website, your electrician services could
-              light up as the first thing Jane sees, persuading her to choose
-              you over your competitors.
-            </p>
-            <p>
-              By focusing on local SEO, you increase the odds of your
-              electrician business being on the spotlight—right on the first
-              page—when Jane and others search for electrical services.
-            </p>
-            <p>
-              This is not merely a digital triumph; it’s a gateway to more cash
-              in you account!
-            </p>
-            <p>
-              Research shows that the top three organic search results grab
-              approximately{' '}
-              <Link
-                href="https://backlinko.com/google-ctr-stats"
-                target="_blank"
-                className="underline underline-offset-8 decoration-2 "
-              >
-                54.4%
-              </Link>{' '}
-              of all clicks.
-            </p>
-            <p>
-              So, the higher you rank, the more clicks you bag, converting these
-              clicks into potential leads and, ultimately, satisfied customers.
-            </p>
-            <p>
-              Are you ready to illuminate your electrical services in NYC with
-              local SEO?
-            </p>
-          </div>
-        </div>
-        <div className="w-auto py-20">
-          <div className="container max-auto max-w-8xl mx-auto py-5">
-            <div className="py-5 lg:py-10">
-              <h2 className="text-3xl lg:text-7xl pb-5 font-bold mb-7 text-center">
-                5 Reasons to Start Doing Search Engine Optimization for
-                Electricians
+        <section>
+          <div className="container max-auto max-w-4xl mx-auto py-5  ">
+            {/* <img
+              src="images/electrician.webp"
+              alt="Electrician in NYC."
+              className="rounded order-2 sm:mx-auto"
+              width={600}
+              height={1000}
+            /> */}
+            <div className="order-1">
+              <h2 className="text-4xl text-center md:text-7xl pb-5 font-bold mb-7">
+                What is SEO for Electricians in New York City?
               </h2>
-              <p className="text-xl text-center">
-                Here are five reasons you need an SEO specialist and why you
-                should start practicing Electrical SEO on your website
+              <p>
+                SEO, or Search Engine Optimization, isn’t just another piece of
+                jargon; it’s an essential component for electricians looking to
+                grow their presence online.
               </p>
-              <div className="py-20">
-                <div className="lg:grid grid-cols-2 items-center">
-                  <div className="lg:max-w-xl lg:w-full md:w-1/2 w-5/6 sm:col-start-1 mb-10">
-                    <img
-                      className="object-cover object-center rounded"
-                      alt="SEO for Electricians in NYC."
-                      title="SEO for Electricians in NYC."
-                      src="https://dummyimage.com/720x600"
-                    />
-                  </div>
-                  <div>
+              <p>
+                Especially in New York City with more than 18,000,000 peole and
+                potential customers.
+              </p>
+              <p>
+                With more than{' '}
+                <Link
+                  href="https://www.bls.gov/oes/current/oes472111.htm#st"
+                  target="_blank"
+                  className="underline underline-offset-8 decoration-2 "
+                >
+                  39,000
+                </Link>{' '}
+                electricians in New York, search engine optimization is a must.
+              </p>
+              <p>Let me paint a picture for you:</p>
+              <p>
+                Imagine you’re running your electrical company in Crown Heights,
+                Brooklyn.
+              </p>
+              <p>
+                You have your arsenal of tools, a team of certified
+                electricians, and a commitment to provide excellent customer
+                service and your customers.
+              </p>
+              <p>Meet Jane.</p>
+              <p>
+                She’s just leased a chic apartment in Crown Heights and is in
+                urgent need of an electrician to install some designer fixtures.
+              </p>
+              <p>
+                Instead of browsing through the endless yellow pages or
+                consulting her busy neighbors, Jane will likely pull out her
+                smartphone or laptop and search for "electrician near me."
+              </p>
+              <p>This is where local SEO shines for electricians!</p>
+              <p>
+                With a well-optimized website, your electrician services could
+                light up as the first thing Jane sees, persuading her to choose
+                you over your competitors.
+              </p>
+              <p>
+                By focusing on local SEO, you increase the odds of your
+                electrician business being on the spotlight—right on the first
+                page—when Jane and others search for electrical services.
+              </p>
+              <p>
+                This is not merely a digital triumph; it’s a gateway to more
+                cash in you account!
+              </p>
+              <p>
+                Research shows that the top three organic search results grab
+                approximately{' '}
+                <Link
+                  href="https://backlinko.com/google-ctr-stats"
+                  target="_blank"
+                  className="underline underline-offset-8 decoration-2 "
+                >
+                  54.4%
+                </Link>{' '}
+                of all clicks.
+              </p>
+              <p>
+                So, the higher you rank, the more clicks you bag, converting
+                these clicks into potential leads and, ultimately, satisfied
+                customers.
+              </p>
+              <p>
+                Are you ready to illuminate your electrical services in NYC with
+                local SEO?
+              </p>
+            </div>
+          </div>
+          <div className="flex justify-center">
+            <Link
+              href="#diagnosis"
+              className="inline-flex text-white bg-orange-800 border-0 py-4 px-8  focus:outline-none hover:bg-orange-700 rounded text-2xl no-underline"
+            >
+              Get Your Free SEO Diagnosis &#8594;
+            </Link>
+          </div>
+        </section>
+        <section>
+          <div className="max-w-7xl mx-auto py-5">
+            <div className="container max-auto max-w-4xl mx-auto py-5">
+              <div className="py-5 lg:py-10">
+                <h2 className="text-4xl lg:text-6xl pb-5 font-bold mb-7 text-center">
+                  5 Reasons to Start Search Engine Optimization for Electricians
+                </h2>
+                <p className="text-center">
+                  Here are five reasons you need an SEO specialist and why you
+                  should start practicing Electrical SEO
+                </p>
+                <div className="my-5">
+                  <div className="pt-5">
                     <h3 className="text-4xl pb-5 font-bold">
                       #1. Other Electrical Companies in New York are Already
-                      Doing SEO
+                      Doing Search Engine Optimization
                     </h3>
-                    <p>
-                      Ever tried looking up your services, and all you see are
-                      your competitors owning the first page?
-                    </p>
-                    <p>Don’t believe me?</p>
-                    <p>
-                      Go on, do a quick Google search for one of your services
-                      and see who’s snagging the top spots.
-                    </p>
-                    <p>It isn’t just luck!</p>
-                    <p>They’re all doing search engine optimization.</p>
-                    <p>
-                      They’ve clued into how crucial it is to be the first
-                      business people see online, so they’re using SEO to stand
-                      out, pull in customers, and expand their businesses.
-                    </p>
-                    <p>
-                      If SEO isn’t on your to-do list, you’re losing ground—and
-                      customers—to your competition. People are out there
-                      looking for your services, but they’re stumbling upon your
-                      competitors instead!
-                    </p>
                     <p>
                       Every day you go without SEO, your competitors are beefing
                       up their online presence and reputation. Plus, the longer
@@ -217,18 +188,12 @@ export default function Home() {
                     <p>Now, let's dive into the second reason!</p>
                   </div>
                 </div>
-              </div>
-              <div className="py-20">
-                <div className="grid grid-cols-2 items-center gap-20">
-                  <div>
+                <div className="my-5">
+                  <div className="pt-5">
                     <h3 className="text-4xl pb-5 font-bold">
                       #2. SEO Puts You a Step Ahead of Other Electrical
                       Companies!
                     </h3>
-                    <p>
-                      Diving into electrical SEO lets you zoom past your
-                      competition and shine in a jam-packed market!
-                    </p>
                     <p>
                       Having a rock-solid SEO game plan means you’re gonna pop
                       up near the top when folks are looking for electrical
@@ -262,202 +227,146 @@ export default function Home() {
                       The perks of SEO stick around, giving you a long-lasting
                       edge.
                     </p>
-                    <p>
-                      So, SEO isn’t just about matching your competitors—it’s
-                      about outrunning them and grabbing a bigger slice of the
-                      market pie.
-                    </p>
                     <p>Now, let’s hop onto the third reason!</p>
-                  </div>
-                  <div className="lg:max-w-xl lg:w-full md:w-1/2 w-5/6">
-                    <img
-                      className="object-cover object-center rounded"
-                      alt="SEO for Electricians in NYC."
-                      title="SEO for Electricians in NYC."
-                      src="https://dummyimage.com/720x600"
-                    />
                   </div>
                 </div>
               </div>
-              <div className="py-20">
-                <div className="grid grid-cols-2 items-center gap-20">
-                  <div className="lg:max-w-xl lg:w-full md:w-1/2 w-5/6">
-                    <img
-                      className="object-cover object-center rounded"
-                      alt="SEO for Electricians in NYC."
-                      title="SEO for Electricians in NYC."
-                      src="https://dummyimage.com/720x600"
-                    />
-                  </div>
-                  <div>
-                    <h3 className="text-4xl pb-5 font-bold">
-                      #3. More People Will See Your Electrical Company and
-                      Services
-                    </h3>
-                    <p>Landing on Google’s first page?</p>
-                    <p>It’s like your web presence just hit the jackpot!</p>
-                    <p>
-                      More eyes are on your electrical services and your
-                      business.
-                    </p>
-                    <p>More eyes mean more clicks, visits, and conversions.</p>
-                    <p>
-                      If people spot your website and they’re keen on your
-                      services, they’re gonna pop in for a visit.
-                    </p>
-                    <p>
-                      And hey, the more visitors you get to your electrical
-                      company’s website, the higher the chances of scoring more
-                      leads, customers, and of course, sales!
-                    </p>
-                    <p>Now, let’s splash into the fourth point!</p>
-                  </div>
+              <div className="my-5">
+                <div className="pt-5">
+                  <h3 className="text-4xl pb-5 font-bold">
+                    #3. More People Will See Your Electrical Company and
+                    Services
+                  </h3>
+                  <p>Landing on Google’s first page?</p>
+                  <p>It’s like your web presence just hit the jackpot!</p>
+                  <p>
+                    More eyes are on your electrical services and your business.
+                  </p>
+                  <p>More eyes mean more clicks, visits, and conversions.</p>
+                  <p>
+                    If people spot your website and they’re keen on your
+                    services, they’re gonna pop in for a visit.
+                  </p>
+                  <p>
+                    And hey, the more visitors you get to your electrical
+                    company’s website, the higher the chances of scoring more
+                    leads, customers, and of course, sales!
+                  </p>
+                  <p>Now, let’s splash into the fourth point!</p>
                 </div>
               </div>
               <div className="py-5">
-                <div className="grid grid-cols-2 items-center gap-20">
-                  <div>
-                    <h3 className="text-4xl pb-5 font-bold">
-                      #4. You’ll Be Raking in Leads 24/7!
-                    </h3>
-                    <p>
-                      Your website will become an around-the-clock worker bee.
-                    </p>
-                    <p>
-                      Unlike the old-school business models, a slick, optimized
-                      website is like having a sales buddy working full-time,
-                      pulling in new customers day and night.
-                    </p>
-                    <p>
-                      This non-stop lead magnet magic happens because SEO bumps
-                      up your visibility on search engines, letting folks who
-                      are on the hunt for what you offer find you easily.
-                    </p>
-                    <p>
-                      And these aren’t just any leads—they’re top-notch because
-                      people using search engines are usually on the prowl for
-                      solutions, so they’re ready to jump in!
-                    </p>
-                    <p>
-                      Oh, and the leads you get through SEO? They know no
-                      borders.
-                    </p>
-                    <p>
-                      You could be pulling in customers from every corner of the
-                      globe.
-                    </p>
-                    <p>
-                      SEO isn’t just another trick in the marketing book—it’s a
-                      pivotal business tool that keeps your brand and products
-                      in the spotlight and attracts leads every hour of every
-                      day.
-                    </p>
-                    <p>
-                      Now, let’s jump into the fifth reason SEO is your
-                      business’s best friend!
-                    </p>
-                  </div>
-                  <div className="lg:max-w-xl lg:w-full md:w-1/2 w-5/6">
-                    <img
-                      className="object-cover object-center rounded"
-                      alt="SEO for Electricians in NYC."
-                      title="SEO for Electricians in NYC."
-                      src="https://dummyimage.com/720x600"
-                    />
-                  </div>
+                <div className="pt-10">
+                  <h3 className="text-4xl pb-5 font-bold">
+                    #4. You’ll Be Raking in Leads 24/7!
+                  </h3>
+                  <p>
+                    Unlike the old-school business models, a slick, optimized
+                    website is like having a sales buddy working full-time,
+                    pulling in new customers day and night.
+                  </p>
+                  <p>
+                    This non-stop lead magnet magic happens because SEO bumps up
+                    your visibility on search engines, letting folks who are on
+                    the hunt for what you offer find you easily.
+                  </p>
+                  <p>
+                    And these aren’t just any leads—they’re top-notch because
+                    people using search engines are usually on the prowl for
+                    solutions, so they’re ready to jump in!
+                  </p>
+                  <p>
+                    You could be pulling in customers from every corner of the
+                    your borough.
+                  </p>
+                  <p>
+                    SEO isn’t just another trick in the marketing book—it’s a
+                    pivotal business tool that keeps your brand and services in
+                    the spotlight and attracts leads every hour of every day.
+                  </p>
+                  <p>
+                    Now, let’s jump into the fifth reason SEO is your business’s
+                    best friend!
+                  </p>
                 </div>
               </div>
-              <div className="py-20">
-                <div className="grid grid-cols-2 items-center gap-20">
-                  <div className="lg:max-w-xl lg:w-full md:w-1/2 w-5/6">
-                    <img
-                      className="object-cover object-center rounded"
-                      alt="SEO for Electricians in NYC."
-                      title="SEO for Electricians in NYC."
-                      src="https://dummyimage.com/720x600"
-                    />
-                  </div>
-                  <div>
-                    <h3 className="text-4xl pb-5 font-bold">
-                      #5. Doing SEO is Cheaper Compared to Social Media Ads!
-                    </h3>
-                    <p>
-                      So, with social media, you often find yourself shelling
-                      out bucks on ads to get your name out there.
-                    </p>
-                    <p>But SEO?</p>
-                    <p>
-                      It doesn’t slap you with extra charges for every click or
-                      impression to pull in organic traffic.
-                    </p>
-                    <p>
-                      And here’s the kicker: SEO generates{' '}
-                      <Link
-                        href="https://videos.brightedge.com/research-report/BrightEdge_ChannelReport2019_FINAL.pdf"
-                        target="_blank"
-                        className="underline underline-offset-8 decoration-2 "
-                      >
-                        1000%
-                      </Link>{' '}
-                      more traffic than social media.
-                    </p>
-                    <p>
-                      A page that ranks well can keep pulling in visitors for
-                      months, heck, even years!
-                    </p>
-                    <p>
-                      Meanwhile, a social media post might just get lost in the
-                      shuffle within hours or days.
-                    </p>
-                    <p>
-                      Plus, the traffic you get from SEO is usually top-tier.
-                    </p>
-                    <p>
-                      People landing on your site via search engines are on the
-                      lookout for your electrical services, so they’re primed to
-                      pay.
-                    </p>
-                    <p>
-                      Sure, SEO and social media each have their perks, but the
-                      lasting, high-quality traffic from SEO typically delivers
-                      a bang-up return on investment.
-                    </p>
-                    <p>Bottom line?</p>
-                    <p>
-                      Social media’s a nice slice of the marketing pie, but for
-                      long-lasting, cost-effective growth, SEO takes the cake!
-                    </p>
-                  </div>
+              <div className="py-5">
+                <div className="pt-10">
+                  <h3 className="text-4xl pb-5 font-bold">
+                    #5. Doing SEO is Cheaper Compared to Social Media Ads!
+                  </h3>
+                  <p>
+                    So, with social media, you often find yourself shelling out
+                    bucks on ads to get your name out there.
+                  </p>
+                  <p>But SEO?</p>
+                  <p>
+                    It doesn’t slap you with extra charges for every click or
+                    impression to pull in organic traffic.
+                  </p>
+                  <p>
+                    And here’s the kicker: SEO generates{' '}
+                    <Link
+                      href="https://videos.brightedge.com/research-report/BrightEdge_ChannelReport2019_FINAL.pdf"
+                      target="_blank"
+                      className="underline underline-offset-8 decoration-2 "
+                    >
+                      1000%
+                    </Link>{' '}
+                    more traffic than social media.
+                  </p>
+                  <p>
+                    A page that ranks well can keep pulling in visitors for
+                    months, heck, even years!
+                  </p>
+                  <p>
+                    Meanwhile, a social media post might just get lost in the
+                    shuffle within hours or days.
+                  </p>
+                  <p>Plus, the traffic you get from SEO is usually top-tier.</p>
+                  <p>
+                    People landing on your site via search engines are on the
+                    lookout for your electrical services, so they’re primed to
+                    pay.
+                  </p>
+                  <p>
+                    Sure, SEO and social media each have their perks, but the
+                    lasting, high-quality traffic from SEO typically delivers a
+                    bang-up return on investment.
+                  </p>
+                  <p>Bottom line?</p>
+                  <p>
+                    Social media’s a nice slice of the marketing pie, but for
+                    long-lasting, cost-effective growth, SEO takes the cake!
+                  </p>
                 </div>
+              </div>
+              <div className="flex justify-center">
+                <Link
+                  href="#diagnosis"
+                  className="inline-flex text-white bg-orange-800 border-0 py-4 px-8  focus:outline-none hover:bg-orange-700 rounded text-2xl no-underline"
+                >
+                  Get Your Free SEO Diagnosis &#8594;
+                </Link>
               </div>
             </div>
           </div>
-        </div>
-        <div className="container max-w-7xl mx-auto">
-          <h2 className="text-3xl lg:text-7xl pb-5 font-bold mb-7 text-center">
-            How to Start Doing SEO for Electricians and Start Getting More Web
-            Traffic and Customers
-          </h2>
-          <p className="text-2xl text-center">
-            The surge in online presence demands a solid strategy to rise above
-            the noise and outshine the competition. Here's a comprehensive guide
-            to electrifying your website’s SEO and sparking interest in your
-            electrician services.
-          </p>
-        </div>
-        <div className="container max-w-7xl mx-auto">
-          <div className="my-20 grid grid-cols-2 item-center">
-            <div className="lg:max-w-xl lg:w-full md:w-1/2 w-5/6">
-              <img
-                className="object-cover object-center rounded"
-                alt="SEO for Electricians in NYC."
-                title="SEO for Electricians in NYC."
-                src="https://dummyimage.com/300x200"
-              />
-            </div>
-            <div>
+        </section>
+        <section>
+          <div className="container max-w-4xl mx-auto py-10 md:py-20">
+            <h2 className="text-4xl lg:text-6xl pb-5 font-bold mb-7 text-center">
+              How to Start Doing SEO for Electricians and Getting More Customers
+            </h2>
+            <p className="text-center">
+              The surge in online presence demands a solid strategy to rise
+              above the noise and outshine the competition. Here's a guide to
+              electrifying your website’s SEO and sparking interest in your
+              electrician services.
+            </p>
+
+            <div className="my-5">
               <h3 className="text-2xl lg:text-4xl font-bold mb-5">
-                Understand Your Audience
+                Understand Your Potential Audience
               </h3>
               <p>
                 To harness the full potential of SEO, you need to understand
@@ -473,17 +382,7 @@ export default function Home() {
                 “residential electrician near me”.
               </p>
             </div>
-          </div>
-          <div className="my-20 grid grid-cols-2 item-center">
-            <div className="lg:max-w-xl lg:w-full md:w-1/2 w-5/6">
-              <img
-                className="object-cover object-center rounded"
-                alt="SEO for Electricians in NYC."
-                title="SEO for Electricians in NYC."
-                src="https://dummyimage.com/300x200"
-              />
-            </div>
-            <div>
+            <div className="my-5">
               <h3 className="text-2xl lg:text-4xl font-bold mb-5">
                 Do Keyword Research:
               </h3>
@@ -525,19 +424,9 @@ export default function Home() {
                 </li>
               </ul>
             </div>
-          </div>
-          <div className="my-20">
-            <div className="my-20 grid grid-cols-2 items-center">
-              <div className="lg:max-w-xl lg:w-full md:w-1/2 w-5/6">
-                <img
-                  className="object-cover object-center rounded"
-                  alt="SEO for Electricians in NYC."
-                  title="SEO for Electricians in NYC."
-                  src="https://dummyimage.com/300x200"
-                />
-              </div>
+            <div className="my-5">
               <div>
-                <h3 className="text-4xl font-bold mb-5">
+                <h3 className="text-2xl lg:text-4xl font-bold mb-5">
                   Internal Website Linking:
                 </h3>
                 <p>
@@ -563,17 +452,7 @@ export default function Home() {
                 </ul>
               </div>
             </div>
-          </div>
-          <div className="my-20">
-            <div className="my-20 grid grid-cols-2 item-center">
-              <div className="lg:max-w-xl lg:w-full md:w-1/2 w-5/6">
-                <img
-                  className="object-cover object-center rounded"
-                  alt="SEO for Electricians in NYC."
-                  title="SEO for Electricians in NYC."
-                  src="https://dummyimage.com/300x200"
-                />
-              </div>
+            <div className="my-5">
               <div>
                 <h3 className="text-2xl lg:text-4xl font-bold mb-5">
                   On-Page SEO – Making Every Page Shine:
@@ -613,17 +492,7 @@ export default function Home() {
                 </p>
               </div>
             </div>
-          </div>
-          <div className="my-20">
-            <div className="my-20 grid grid-cols-2 item-center">
-              <div className="lg:max-w-xl lg:w-full md:w-1/2 w-5/6">
-                <img
-                  className="object-cover object-center rounded"
-                  alt="SEO for Electricians in NYC."
-                  title="SEO for Electricians in NYC."
-                  src="https://dummyimage.com/300x200"
-                />
-              </div>
+            <div className="my-5">
               <div>
                 <h3 className="text-2xl lg:text-4xl font-bold mb-5">
                   Create a Mobile-Friendly Website
@@ -644,49 +513,29 @@ export default function Home() {
                 </p>
               </div>
             </div>
-            <div className="my-20">
-              <div className="grid grid-cols-2 place-items-center">
-                <div className="lg:max-w-xl lg:w-full md:w-1/2 w-5/6">
-                  <img
-                    className="object-cover object-center rounded"
-                    alt="SEO for Electricians in NYC."
-                    title="SEO for Electricians in NYC."
-                    src="https://dummyimage.com/300x200"
-                  />
-                </div>
-                <div>
-                  <h3 className="text-4xl font-bold mb-5">
-                    Build Links to Your Website
-                  </h3>
-                  <p>
-                    Construct a robust link-building strategy to earn backlinks
-                    from reputable sites. Backlinks boosts your website’s
-                    authority and rankings.
-                  </p>
-                  <p>
-                    Reach out to local businesses, suppliers, or relevant blogs
-                    and offer to write guest posts or collaborate on content.
-                  </p>
-                  <p>
-                    Collaborate with other local businesses in New York for
-                    mutual backlinking opportunities.
-                  </p>
-                </div>
+            <div className="my-5">
+              <div>
+                <h3 className="text-2xl font-bold mb-5">
+                  Build Links to Your Website
+                </h3>
+                <p>
+                  Construct a robust link-building strategy to earn backlinks
+                  from reputable sites. Backlinks boosts your website’s
+                  authority and rankings.
+                </p>
+                <p>
+                  Reach out to local businesses, suppliers, or relevant blogs
+                  and offer to write guest posts or collaborate on content.
+                </p>
+                <p>
+                  Collaborate with other local businesses in New York for mutual
+                  backlinking opportunities.
+                </p>
               </div>
             </div>
-          </div>
-          <div className="my-20">
-            <div className="my-20 grid grid-cols-2 items-center">
-              <div className="lg:max-w-xl lg:w-full md:w-1/2 w-5/6">
-                <img
-                  className="object-cover object-center rounded"
-                  alt="SEO for Electricians in NYC."
-                  title="SEO for Electricians in NYC."
-                  src="https://dummyimage.com/300x200"
-                />
-              </div>
+            <div className="my-5">
               <div>
-                <h3 className="text-4xl font-bold mb-5">
+                <h3 className="text-2xl font-bold mb-5">
                   Crafting Magnetic SEO Content:
                 </h3>
                 <p>
@@ -708,11 +557,19 @@ export default function Home() {
                 <p>“What to do if your circuit breaker trips.”</p>
               </div>
             </div>
+            <div className="flex justify-center">
+              <Link
+                href="#diagnosis"
+                className="inline-flex text-white bg-orange-800 border-0 py-4 px-8  focus:outline-none hover:bg-orange-700 rounded text-2xl no-underline"
+              >
+                Get Your Free SEO Diagnosis &#8594;
+              </Link>
+            </div>
           </div>
-        </div>
-        <div className="container max-w-7xl mx-auto">
-          <div className="py-5 lg:py-10">
-            <h2 className="text-3xl lg:text-7xl pb-5 font-bold text-center">
+        </section>
+        <div className="container max-w-4xl mx-auto">
+          <div className="py-5 md:py-10">
+            <h2 className="text-4xl lg:text-6xl pb-5 font-bold text-center">
               Local SEO Tips for Electrical Service Companies in New York
             </h2>
             <div className="py-10">
@@ -909,7 +766,7 @@ export default function Home() {
                           target="_blank"
                           className="underline underline-offset-8 decoration-2 "
                         >
-                          Broolyn Cahmber of Commerce
+                          Brooklyn Chamber of Commerce
                         </Link>
                       </li>
                       <li>
@@ -1052,26 +909,34 @@ export default function Home() {
                   </div>
                 </div>
               </div>
+              <div className="flex justify-center">
+                <Link
+                  href="#diagnosis"
+                  className="inline-flex text-white bg-orange-800 border-0 py-4 px-8  focus:outline-none hover:bg-orange-700 rounded text-2xl no-underline"
+                >
+                  Get Your Free SEO Diagnosis &#8594;
+                </Link>
+              </div>
             </div>
           </div>
         </div>
         <div className="container max-w-7xl mx-auto">
           <div className="py-5 lg:py-10">
-            <h2 className="text-3xl lg:text-7xl pb-5 font-bold text-center">
+            <h2 className="text-4xl lg:text-6xl pb-5 font-bold text-center">
               Consequences of Ignoring Local SEO for Your Electrical Services
               Business
             </h2>
-            <p className="pb-10">
+            <p className="text-center pb-5">
               Here are the setbacks your electrical business might face when
               bypassing local SEO:
             </p>
             <div className="flex justify-between">
               <img
                 src="images/x-button.png"
-                className=" w-16 h-16"
+                className=" w-12 h-12"
                 alt="X mark."
               ></img>
-              <div className="pl-20">
+              <div className="pl-6 md:pl-20">
                 <h3 className="text-2xl pb-5 font-semibold">
                   Become a Ghost in Local Searches
                 </h3>
@@ -1090,10 +955,10 @@ export default function Home() {
             <div className="flex justify-between">
               <img
                 src="images/x-button.png"
-                className=" w-16 h-16"
+                className=" w-12 h-12"
                 alt="X mark."
-              ></img>
-              <div className="pl-20">
+              />
+              <div className="pl-6 md:pl-20">
                 <h3 className="text-2xl pb-5 font-semibold">
                   Decline in Service Calls
                 </h3>
@@ -1111,10 +976,10 @@ export default function Home() {
             <div className="flex justify-between">
               <img
                 src="images/x-button.png"
-                className=" w-16 h-16"
+                className=" w-12 h-12"
                 alt="X mark."
-              ></img>
-              <div className="pl-20">
+              />
+              <div className="pl-6 md:pl-20">
                 <h3 className="text-2xl pb-5 font-semibold">
                   Forfeit Leads, Jobs, and Revenue
                 </h3>
@@ -1131,10 +996,10 @@ export default function Home() {
             <div className="flex justify-between">
               <img
                 src="images/x-button.png"
-                className=" w-16 h-16"
+                className=" w-12 h-12"
                 alt="X mark."
-              ></img>
-              <div className="pl-20">
+              />
+              <div className="pl-6 md:pl-20">
                 <h3 className="text-2xl pb-5 font-semibold">
                   Erosion of Trust and Authority
                 </h3>
@@ -1162,10 +1027,10 @@ export default function Home() {
             <div className="flex justify-between">
               <img
                 src="images/x-button.png"
-                className=" w-16 h-16"
+                className=" w-12 h-12"
                 alt="X mark."
-              ></img>
-              <div className="pl-20">
+              />
+              <div className="pl-6 md:pl-20">
                 <h3 className="text-2xl pb-5 font-semibold">
                   At a Competitive Disadvantage
                 </h3>
@@ -1181,9 +1046,8 @@ export default function Home() {
             </div>
           </div>
         </div>
-
         <div className="container max-7xl mx-auto py-10">
-          <p className="text-4xl leading-26 p-10 bg-slate-200 rounded">
+          <p className="text-2xl p-10 md:p-20 bg-slate-200 rounded">
             The longer you delay adopting a local SEO strategy, the more costly
             it becomes to create a powerful online presence later on. You’ll be
             laying the groundwork while your competitors would have built
@@ -1191,8 +1055,7 @@ export default function Home() {
             up and compete effectively in the NYC electrical services market.
           </p>
         </div>
-
-        <div className="container max-7xl mx-auto py-10">
+        <div className="container max-w-7xl mx-auto py-5">
           <div className="py-5 lg:py-10">
             <h2 className="lg:text-center text-3xl lg:text-5xl pb-20 font-bold">
               FAQ: SEO for Electricians in New York City
@@ -1351,6 +1214,71 @@ export default function Home() {
             </div>
           </div>
         </div>
+        <section className="bg-slate-50 py-24" id="diagnosis">
+          <div className="max-w-7xl mx-auto px-4">
+            <h2 className="text-4xl lg:text-5xl font-bold pb-4 text-center">
+              Get Your Free SEO Diagnosis
+            </h2>
+            <p className="text-center">
+              Find out why you’re not ranking #1 in Google for your most
+              important keywords
+            </p>
+            <div className="max-w-3xl mx-auto">
+              <form className="px-4 pt-6 pb-8 mb-4">
+                <div className="mb-4">
+                  <label
+                    className="block text-gray-700 text-sm font-bold mb-2"
+                    for="username"
+                  >
+                    Name
+                  </label>
+                  <input
+                    className="shadow appearance-none border rounded w-full py-3 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                    id="username"
+                    type="text"
+                    placeholder="Username"
+                  />
+                </div>
+                <div className="mb-4">
+                  <label
+                    className="block text-gray-700 text-sm font-bold mb-2"
+                    for="email"
+                  >
+                    Email
+                  </label>
+                  <input
+                    className="shadow appearance-none borderrounded w-full py-3 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline"
+                    id="password"
+                    type="email"
+                    placeholder="Joe@gmail.com"
+                  />
+                </div>
+                <div className="mb-6">
+                  <label
+                    class="block text-gray-700 text-sm font-bold mb-2"
+                    for="website"
+                  >
+                    Website
+                  </label>
+                  <input
+                    className="shadow appearance-none rounded w-full py-4 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline"
+                    id="website"
+                    type="text"
+                    placeholder="https://"
+                  />
+                </div>
+                <div className="flex items-center justify-between">
+                  <button
+                    className="bg-orange-700 hover:bg-orange-700 text-white font-bold py-2 px-7 rounded focus:outline-none focus:shadow-outline text-xl"
+                    type="button"
+                  >
+                    Get My SEO Diagnosis
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </section>
       </main>
 
       <Footer />
