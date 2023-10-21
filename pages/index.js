@@ -4,6 +4,7 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import { NextSeo } from 'next-seo'
 import Link from 'next/link'
+import SEODiagnosis from '@/components/SEODiagnosis'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -21,8 +22,8 @@ export default function Home() {
                 {/* <br class="hidden lg:inline-block">readymade gluten</br> */}
               </h1>
               <p className="mb-8 leading-relaxed text-2xl">
-                Boost Your Company's Growth & Visibility with Custom Electrical
-                SEO Exclusively for Electricians in New York City!
+                Get More Leads and Customers with Custom Electrical SEO
+                Exclusively for Electricians in New York City!
               </p>
               <div className="flex justify-center">
                 <Link
@@ -43,24 +44,9 @@ export default function Home() {
             </div>
           </div>
         </section>
-        {/* <div className="container max-auto max-w-8xl mx-auto py-40">
-          <h1 classNameName="text-6xl lg:text-8xl pb-5 font-bold">
-            SEO For Electricians in NYC
-          </h1>
-          <p className="font-semibold">
-            Unlock Unparalleled Growth & Visibility with Tailored SEO Strategies
-            for Electricians!
-          </p>
-        </div> */}
+
         <section>
           <div className="container max-auto max-w-4xl mx-auto py-5  ">
-            {/* <img
-              src="images/electrician.webp"
-              alt="Electrician in NYC."
-              className="rounded order-2 sm:mx-auto"
-              width={600}
-              height={1000}
-            /> */}
             <div className="order-1">
               <h2 className="text-4xl text-center md:text-7xl pb-5 font-bold mb-7">
                 What is SEO for Electricians in New York City?
@@ -71,8 +57,8 @@ export default function Home() {
                 grow their presence online.
               </p>
               <p>
-                Especially in New York City with more than 18,000,000 peole and
-                potential customers.
+                Especially in New York City, with more than 18,000,000 people
+                and potential customers.
               </p>
               <p>
                 With more than{' '}
@@ -153,17 +139,21 @@ export default function Home() {
           </div>
         </section>
         <section>
-          <div className="max-w-7xl mx-auto py-5">
-            <div className="container max-auto max-w-4xl mx-auto py-5">
-              <div className="py-5 lg:py-10">
-                <h2 className="text-4xl lg:text-6xl pb-5 font-bold mb-7 text-center">
+          <div className="container max-w-9xl mx-auto py-5">
+            <div className=" ">
+              <div className="py-5 lg:py-20">
+                <h2 className="text-4xl max-w-5xl mx-auto lg:text-6xl pb-5 font-bold mb-7 text-center">
                   5 Reasons to Start Search Engine Optimization for Electricians
                 </h2>
                 <p className="text-center">
-                  Here are five reasons you need an SEO specialist and why you
-                  should start practicing Electrical SEO
+                  Here are five reasons you need an Electrician SEO specialist
+                  and why you should start practicing Electrical SEO
                 </p>
-                <div className="my-5">
+                <div className="my-20 lg:grid grid-cols-2 gap-20 items-center">
+                  <img
+                    src="images/competiton.png"
+                    className="mx-auto w-1/2 order-2 lg:w-3/4"
+                  />
                   <div className="pt-5">
                     <h3 className="text-4xl pb-5 font-bold">
                       #1. Other Electrical Companies in New York are Already
@@ -188,8 +178,12 @@ export default function Home() {
                     <p>Now, let's dive into the second reason!</p>
                   </div>
                 </div>
-                <div className="my-5">
-                  <div className="pt-5">
+                <div className="my-20 lg:grid grid-cols-2 gap-20 items-center">
+                  <img
+                    src="images/steps-ahead.png"
+                    className="mx-auto w-1/2 lg:w-3/4"
+                  />
+                  <div className="pt-20">
                     <h3 className="text-4xl pb-5 font-bold">
                       #2. SEO Puts You a Step Ahead of Other Electrical
                       Companies!
@@ -231,7 +225,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className="my-5">
+              <div className="my-20 lg:grid grid-cols-2 gap-20 items-center">
                 <div className="pt-5">
                   <h3 className="text-4xl pb-5 font-bold">
                     #3. More People Will See Your Electrical Company and
@@ -255,8 +249,9 @@ export default function Home() {
                   <p>Now, let’s splash into the fourth point!</p>
                 </div>
               </div>
-              <div className="py-5">
-                <div className="pt-10">
+              <div className="my-20 lg:grid grid-cols-2 gap-20 items-center">
+                <img src="images/24-7.png" className="mx-auto w-1/2 lg:w-3/4" />
+                <div className="pt-20">
                   <h3 className="text-4xl pb-5 font-bold">
                     #4. You’ll Be Raking in Leads 24/7!
                   </h3>
@@ -290,8 +285,13 @@ export default function Home() {
                   </p>
                 </div>
               </div>
-              <div className="py-5">
-                <div className="pt-10">
+              <div className="my-20 lg:grid grid-cols-2 gap-20 items-center">
+                <img
+                  src="images/reduce-cost.png"
+                  c
+                  className="mx-auto w-1/2 order-2 lg:w-3/4"
+                />
+                <div className="pt-20">
                   <h3 className="text-4xl pb-5 font-bold">
                     #5. Doing SEO is Cheaper Compared to Social Media Ads!
                   </h3>
@@ -784,7 +784,7 @@ export default function Home() {
                           target="_blank"
                           className="underline underline-offset-8 decoration-2 "
                         >
-                          Manhatan Chamber of Commerce
+                          Manhattan Chamber of Commerce
                         </Link>
                       </li>
                       <li>
@@ -1054,6 +1054,14 @@ export default function Home() {
             towering digital empires, making it exceedingly challenging to catch
             up and compete effectively in the NYC electrical services market.
           </p>
+          <div className="flex justify-center">
+            <Link
+              href="#diagnosis"
+              className="inline-flex text-white bg-orange-800 border-0 py-4 px-8  focus:outline-none hover:bg-orange-700 rounded text-2xl no-underline"
+            >
+              Get Your Free SEO Diagnosis &#8594;
+            </Link>
+          </div>
         </div>
         <div className="container max-w-7xl mx-auto py-5">
           <div className="py-5 lg:py-10">
@@ -1228,7 +1236,7 @@ export default function Home() {
                 <div className="mb-4">
                   <label
                     className="block text-gray-700 text-sm font-bold mb-2"
-                    for="username"
+                    htmlFor="username"
                   >
                     Name
                   </label>
@@ -1242,7 +1250,7 @@ export default function Home() {
                 <div className="mb-4">
                   <label
                     className="block text-gray-700 text-sm font-bold mb-2"
-                    for="email"
+                    htmlFor="email"
                   >
                     Email
                   </label>
@@ -1255,8 +1263,8 @@ export default function Home() {
                 </div>
                 <div className="mb-6">
                   <label
-                    class="block text-gray-700 text-sm font-bold mb-2"
-                    for="website"
+                    className="block text-gray-700 text-sm font-bold mb-2"
+                    htmlFor="website"
                   >
                     Website
                   </label>

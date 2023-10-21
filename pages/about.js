@@ -4,6 +4,7 @@ import Footer from '@/components/Footer'
 import { NextSeo } from 'next-seo'
 import Link from 'next/link'
 import Header from '@/components/Header'
+import SEODiagnosis from '@/components/SEODiagnosis'
 
 const about = () => {
   return (
@@ -17,15 +18,15 @@ const about = () => {
               {/* <br class="hidden lg:inline-block">readymade gluten</br> */}
             </h1>
             <p className="mb-8 leading-relaxed text-2xl">
-              I am an SEO specialist for Electrical Service Companies in New
-              York City!
+              I help electricians and electrical contractors in New York City
+              get more leads and customers with search engine optimization!
             </p>
             <div className="flex justify-center">
               <Link
-                href=""
-                className="inline-flex text-white bg-orange-700 border-0 py-4 px-8  focus:outline-none hover:bg-orange-500 rounded text-2xl no-underline"
+                href="#diagnosis"
+                className="inline-flex text-white bg-orange-800 border-0 py-4 px-8  focus:outline-none hover:bg-orange-700 rounded text-2xl no-underline"
               >
-                Call Me Today &#8594;
+                Get My SEO Diagnosis &#8594;
               </Link>
             </div>
           </div>
@@ -218,7 +219,7 @@ const about = () => {
           </div>
         </div>
       </section>
-
+      <SEODiagnosis />
       <Footer />
     </>
   )

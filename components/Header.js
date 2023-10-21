@@ -56,7 +56,7 @@ export default function Header() {
           </div>
           <div className="hidden lg:flex lg:flex-1 lg:justify-end">
             <Link
-              href="#"
+              href="#diagnosis"
               className="text-lg inline-flex text-white bg-orange-800 border-0 py-4 px-8  focus:outline-none hover:bg-orange-700 rounded no-underline"
             >
               Get Your Free Website Audit <span aria-hidden="true">&rarr;</span>
